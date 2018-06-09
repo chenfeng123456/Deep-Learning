@@ -1,0 +1,7 @@
+\contentsline {section}{Practical aspects of DeepLearning}{2}
+\contentsline {section}{\numberline {1}Python Learning}{2}
+\contentsline {subsection}{\numberline {1.1}Complier}{2}
+\contentsline {subsubsection}{\numberline {1.1.1}Pycharm}{2}
+\contentsline {subsection}{\numberline {1.2}Vim}{2}
+\contentsline {subsubsection}{\numberline {1.2.1}The steps of configuring vim}{2}
+\contentsline {section}{\numberline {2}Normalizing inputs}{11}
