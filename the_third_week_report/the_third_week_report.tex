@@ -9,6 +9,8 @@
 \usepackage[usenames,dvipsnames]{xcolor}
 
 \usepackage{graphicx}
+\usepackage{subfigure}
+
 
 \usepackage{amsmath}
 
@@ -61,12 +63,12 @@
 
 \newpage
 
-\addcontentsline{toc}{section}{Practical aspects of DeepLearning}
 
-\section{Python Learning}
+\addcontentsline{toc}{section}{Python Learning}
+\section*{Python Learning}
 
-\subsection{Complier}
-\subsubsection{Pycharm}
+\section{Complier}
+\subsection{Pycharm}
 The installation of Pycharm is relatively simple. Just be aware of the following points:
 \begin{itemize}
 \item Make sure you have installed pip3.
@@ -312,12 +314,102 @@ Let's have a look of what my vim looks like after configuration through the figu
 \label{my vim}
 \end{figure}
 
-
+\addcontentsline{toc}{section}{Practical aspects of DeepLearning}
 \section*{Practical aspects of DeepLearning}
+\setcounter{section}{0}
 \section{Normalizing inputs}
+
+\subsection{Explanation} 
+ The essence of normalization is a kind of linear transformation which compresses and parallel moves the data. Linear transformation has many good properties, one of which is that it won't change the relative order of data. These properties ensure our data won't be invalidated while we transform them. \par
+We can also have a intuitive view of normalization from geometrical point of view. Let's look at the pictures below.
+
+\begin{figure}[htbp]
+\begin{minipage}[t]{0.45\linewidth}
+\centering
+\includegraphics[width=5cm]{normalization_data.png}
+\caption{Data}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+\centering
+\includegraphics[width=5cm]{normalization_J_function.png}
+\caption{Const function}
+\label{J}
+\end{minipage}
+\end{figure}
+
+Obviously, normalization makes data more concentrated.
+\subsection{Steps of normalizing inputs}
+\begin{enumerate}
+
+\item $\mu = \frac{1}{m}\sum\limits_{i =1}^{m}x^{(i)}$
+\item $\sigma^{2}= \frac{1}{m}\sum\limits_{i =1}^{m}{({x^{(i)})}^{2}}$
+
+\end{enumerate}
+
+As once the data has been determined, $\mu$ and $\sigma$ are both constants , so it can be seen as linear transformation, which can makes the process more efficient.
+
+\section{Mini-batch gradient descent}
+We can divided our training set into many smaller mini-bitch while training the neural network, which can makes the process more efficienct.\par
+Mini-batch gradient descent allows our neural network carry out more gradient decents while it can only count one gradient descent if we don't use mini-batch. Considering the way that computer store, we usually set the  mini-batch's size to be an integer multiple of 2. 
+
+
+
+\addcontentsline{toc}{section}{Some thoughts from SeetaTech's vedios}
+\section*{Some thoughts from SeetaTech's videos}
+Apart from deeplearning.ai, I also watched some videos produced by SeetaTech, which gave me a deeper understanding.
+\setcounter{section}{0}
+\section{How can we see an object}
+There are many nerve cells in our brains. From the experiment in figure  \ref{experiment} we can know that each of them speciallized in judging a specific condition and transmit the information to the cell which judges a more complex condition.
  
+\begin{figure}[htbp]
 
+\begin{minipage}[t]{0.45\linewidth}
+\centering
+\includegraphics[width=6cm]{experiment.png}
+\caption{The experiment}
+\label{experiment}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+\centering
+\includegraphics[width=6cm]{nerve_cells.png}
+\caption{How nerve cells work}
+\label{nervecells}
+\end{minipage}
 
-$\mu = \frac{1}{m}\sum\limits_{i =1}^{m}x^{(i)}$
+\end{figure}
 
+\section{How can we imitate our brains}
+In Deeplearning, every neuron represent a function which count the prossibility of a specific incident happening and they transmit the results to the next neuron which is used to count a more complex prossibility. By repeat the step above we can judge what we want precisely.
+
+\begin{figure}[htbp]
+
+\begin{minipage}[t]{0.3\linewidth}
+\centering
+\includegraphics[width=4cm]{model.png}
+\caption{Model}
+\label{model}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\linewidth}
+\centering
+\includegraphics[width=4cm]{neural_net_work.png}
+\caption{Neural net work}
+\label{neuralnetwork}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\linewidth}
+\centering
+\includegraphics[width=4cm]{vision.png}
+\caption{Applications in the vision field}
+\label{vision}
+\end{minipage}
+
+\end{figure}
+
+\addcontentsline{toc}{section}{Learning summary}
+\section*{Learning summary}
+This week I spend a lot of in configuring complier and studying python grammar. Now I can understand a little more about the codes in videos and homework. And videos from SeetaTech also helps a lot. I'll continue to watch it.\par
+In this course, Practical aspects of DeepLearning, the knowledges points are much more mathematical, which makes it harder for me to understand. I'll spend more time in practicing instead of watching the next week so that I can grasp the technology expertly.
 \end{document}

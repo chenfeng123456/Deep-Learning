@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.21)  9 JUN 2018 09:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.21)  10 JUN 2018 01:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -121,9 +121,29 @@ Package graphics Info: Driver file: pdftex.def on input line 95.
 \Gin@req@height=\dimen110
 \Gin@req@width=\dimen111
 )
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip44
+\subfigcapskip=\skip45
+\subfigcaptopadj=\dimen112
+\subfigbottomskip=\skip46
+\subfigcapmargin=\dimen113
+\subfiglabelskip=\skip47
+\c@subfigure=\count97
+\c@lofdepth=\count98
+\c@subtable=\count99
+\c@lotdepth=\count100
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip48
+\subfig@bottom=\skip49
+)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/03 v2.15a AMS math features
-\@mathmargin=\skip44
+\@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -132,49 +152,49 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
-\ex@=\dimen112
+\ex@=\dimen114
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen113
+\pmbraise@=\dimen115
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count97
+\inf@bad=\count101
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count98
-\leftroot@=\count99
+\uproot@=\count102
+\leftroot@=\count103
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count100
-\DOTSCASE@=\count101
+\classnum@=\count104
+\DOTSCASE@=\count105
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box31
 \strutbox@=\box32
-\big@size=\dimen114
+\big@size=\dimen116
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count102
-\c@MaxMatrixCols=\count103
+\macc@depth=\count106
+\c@MaxMatrixCols=\count107
 \dotsspace@=\muskip10
-\c@parentequation=\count104
-\dspbrk@lvl=\count105
+\c@parentequation=\count108
+\dspbrk@lvl=\count109
 \tag@help=\toks18
-\row@=\count106
-\column@=\count107
-\maxfields@=\count108
+\row@=\count110
+\column@=\count111
+\maxfields@=\count112
 \andhelp@=\toks19
-\eqnshift@=\dimen115
-\alignsep@=\dimen116
-\tagshift@=\dimen117
-\tagwidth@=\dimen118
-\totwidth@=\dimen119
-\lineht@=\dimen120
+\eqnshift@=\dimen117
+\alignsep@=\dimen118
+\tagshift@=\dimen119
+\tagwidth@=\dimen120
+\totwidth@=\dimen121
+\lineht@=\dimen122
 \@envbody=\toks20
-\multlinegap=\skip45
-\multlinetaggap=\skip46
+\multlinegap=\skip51
+\multlinetaggap=\skip52
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2735.
 LaTeX Info: Redefining \] on input line 2736.
@@ -202,48 +222,48 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count109
-\Gm@cntv=\count110
-\c@Gm@tempcnt=\count111
-\Gm@bindingoffset=\dimen121
-\Gm@wd@mp=\dimen122
-\Gm@odd@mp=\dimen123
-\Gm@even@mp=\dimen124
-\Gm@layoutwidth=\dimen125
-\Gm@layoutheight=\dimen126
-\Gm@layouthoffset=\dimen127
-\Gm@layoutvoffset=\dimen128
+\Gm@cnth=\count113
+\Gm@cntv=\count114
+\c@Gm@tempcnt=\count115
+\Gm@bindingoffset=\dimen123
+\Gm@wd@mp=\dimen124
+\Gm@odd@mp=\dimen125
+\Gm@even@mp=\dimen126
+\Gm@layoutwidth=\dimen127
+\Gm@layoutheight=\dimen128
+\Gm@layouthoffset=\dimen129
+\Gm@layoutvoffset=\dimen130
 \Gm@dimlist=\toks22
 )
 (./the_third_week_report.aux)
 \openout1 = `the_third_week_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-\c@lstlisting=\count112
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+\c@lstlisting=\count116
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count113
-\scratchdimen=\dimen129
+\scratchcounter=\count117
+\scratchdimen=\dimen131
 \scratchbox=\box33
-\nofMPsegments=\count114
-\nofMParguments=\count115
+\nofMPsegments=\count118
+\nofMParguments=\count119
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count116
-\MPscratchDim=\dimen130
-\MPnumerator=\count117
-\makeMPintoPDFobject=\count118
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen132
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
 \everyMPtoPDFconversion=\toks24
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -323,59 +343,59 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 59.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 61.
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-(./the_third_week_report.toc)
+(./the_third_week_report.toc [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 \tf@toc=\write3
 \openout3 = `the_third_week_report.toc'.
 
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 72.
+ [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 74.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
 
-Overfull \hbox (20.80771pt too wide) in paragraph at lines 74--75
+Overfull \hbox (20.80771pt too wide) in paragraph at lines 76--77
 \OT1/cmr/m/n/10 from of-fi-cial web-site, you should add it in "$\OML/cmm/m/it/
 10 Settings\OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 >
  []
 
 
-Overfull \hbox (3.1228pt too wide) in paragraph at lines 85--85
+Overfull \hbox (3.1228pt too wide) in paragraph at lines 87--87
 []\OT1/cmr/m/n/8 https://blog.csdn.net/u012450329/article/details/52539058 
  []
 
-[2]
-Overfull \hbox (138.67946pt too wide) in paragraph at lines 94--95
+[3]
+Overfull \hbox (138.67946pt too wide) in paragraph at lines 96--97
 []\OT1/cmr/m/n/10 The old ver-sion: \OT1/cmr/bx/n/10 git clone https://github.c
 om/gmarik/Vundle.vim.git
  []
 
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 95.
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 97.
 
-Overfull \hbox (165.0682pt too wide) in paragraph at lines 95--96
+Overfull \hbox (165.0682pt too wide) in paragraph at lines 97--98
 []\OT1/cmr/m/n/10 The new ver-sion: \OT1/cmr/bx/n/10 git clone https://github.c
 om/VundleVim/Vundle.vim.git
  []
 
-[3] [4]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 173.
+[4] [5]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 175.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 173.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 175.
 Missing character: There is no ƒ in font cmr8!
 Missing character: There is no ´ in font cmr8!
- [5]
+ [6]
 Missing character: There is no Ê in font cmr8!
 Missing character: There is no ò in font cmr8!
 Missing character: There is no æ in font cmr8!
@@ -497,7 +517,7 @@ Missing character: There is no ‰ in font cmr8!
 Missing character: There is no ∫ in font cmr8!
 Missing character: There is no Æ in font cmr8!
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 207.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 209.
 Missing character: There is no Â in font cmr8!
 Missing character: There is no Æ in font cmr8!
 Missing character: There is no Ω in font cmr8!
@@ -519,7 +539,7 @@ Missing character: There is no Ω in font cmr8!
 Missing character: There is no Â in font cmr8!
 Missing character: There is no ∫ in font cmr8!
 Missing character: There is no ¶ in font cmr8!
- [6]
+ [7]
 Missing character: There is no Ê in font cmr8!
 Missing character: There is no õ in font cmr8!
 Missing character: There is no ø in font cmr8!
@@ -571,14 +591,14 @@ Missing character: There is no è in font cmr8!
 Missing character: There is no ¬ in font cmr8!
 Missing character: There is no ¶ in font cmr8!
 
-[7]
+[8]
 Missing character: There is no Â in font cmr8!
 Missing character: There is no Æ in font cmr8!
 Missing character: There is no ö in font cmr8!
 Missing character: There is no ‰ in font cmr8!
 Missing character: There is no π in font cmr8!
 Missing character: There is no â in font cmr8!
- [8]
+ [9]
 Missing character: There is no Á in font cmr8!
 Missing character: There is no ª in font cmr8!
 Missing character: There is no ì in font cmr8!
@@ -592,30 +612,30 @@ Missing character: There is no ‰ in font cmr8!
 Missing character: There is no π in font cmr8!
 Missing character: There is no â in font cmr8!
 
-Overfull \hbox (77.34102pt too wide) in paragraph at lines 299--300
+Overfull \hbox (77.34102pt too wide) in paragraph at lines 301--302
 \OT1/cmr/m/n/10 copy the folder from  \OT1/cmr/bx/n/10 /.vim/bundle \OT1/cmr/m/
 n/10 to \OT1/cmr/bx/n/10 /us-r/share/vim/vim74/\OT1/cmr/m/n/10 . 
  []
 
 
-Overfull \hbox (25.86127pt too wide) in paragraph at lines 301--302
+Overfull \hbox (25.86127pt too wide) in paragraph at lines 303--304
 []\OT1/cmr/m/n/10 Then you can open the vim and in-put:"\OT1/cmr/bx/n/10 :Plugi
 nInstall\OT1/cmr/m/n/10 ".
  []
 
 
-Overfull \hbox (4.66441pt too wide) in paragraph at lines 301--302
+Overfull \hbox (4.66441pt too wide) in paragraph at lines 303--304
 \OT1/cmr/m/n/10 prob-lem, and yet I found a com-mand "\OT1/cmr/bx/n/10 vim +Plu
 g-
  []
 
 
-Overfull \hbox (32.17448pt too wide) in paragraph at lines 301--302
+Overfull \hbox (32.17448pt too wide) in paragraph at lines 303--304
 \OT1/cmr/bx/n/10 inIn-stall +qall\OT1/cmr/m/n/10 " has the same ef-fect as "\OT
 1/cmr/bx/n/10 :PluginInstall\OT1/cmr/m/n/10 "
  []
 
-[9]
+[10]
 Missing character: There is no Â in font cmr10!
 Missing character: There is no ± in font cmr10!
 Missing character: There is no è in font cmr10!
@@ -631,50 +651,135 @@ Missing character: There is no æ in font cmr10!
 
 
 LaTeX Warning: File `2018-06-09 09-28-03Â±èÂπïÊà™Âõæ.png' not found on input li
-ne 310.
+ne 312.
 
-<2018-06-09 09-28-03Â±èÂπïÊà™Âõæ.png, id=46, 1927.2pt x 1084.05pt>
+<2018-06-09 09-28-03Â±èÂπïÊà™Âõæ.png, id=49, 1927.2pt x 1084.05pt>
 File: 2018-06-09 09-28-03Â±èÂπïÊà™Âõæ.png Graphic file (type png)
 
 <use 2018-06-09 09-28-03Â±èÂπïÊà™Âõæ.png>
 Package pdftex.def Info: 2018-06-09 09-28-03Â±èÂπïÊà™Âõæ.png used on input line
- 310.
+ 312.
 (pdftex.def)             Requested size: 256.0748pt x 144.0412pt.
 
-Overfull \hbox (14.22635pt too wide) in paragraph at lines 310--311
+Overfull \hbox (14.22635pt too wide) in paragraph at lines 312--313
  [] 
  []
 
-[10 <./2018-06-09 09-28-03Â±èÂπïÊà™Âõæ.png>] [11] (./the_third_week_report.aux)
- ) 
+[11 <./2018-06-09 09-28-03Â±èÂπïÊà™Âõæ.png>]
+<normalization_data.png, id=53, 602.25pt x 338.26375pt>
+File: normalization_data.png Graphic file (type png)
+
+<use normalization_data.png>
+Package pdftex.def Info: normalization_data.png used on input line 329.
+(pdftex.def)             Requested size: 142.26378pt x 79.9049pt.
+
+Overfull \hbox (33.43272pt too wide) in paragraph at lines 329--330
+ [][] 
+ []
+
+<normalization_J_function.png, id=54, 602.25pt x 338.26375pt>
+File: normalization_J_function.png Graphic file (type png)
+
+<use normalization_J_function.png>
+Package pdftex.def Info: normalization_J_function.png used on input line 335.
+(pdftex.def)             Requested size: 142.26378pt x 79.9049pt.
+
+Overfull \hbox (33.43272pt too wide) in paragraph at lines 335--336
+ [][] 
+ []
+
+[12 <./normalization_data.png (PNG copy)> <./normalization_J_function.png (PNG 
+copy)>]
+Overfull \hbox (31.28793pt too wide) in paragraph at lines 359--359
+[]\OT1/cmr/bx/n/14.4 Some thoughts from See-taT-ech's videos 
+ []
+
+[13] <experiment.png, id=64, 1927.2pt x 1084.05pt>
+File: experiment.png Graphic file (type png)
+ <use experiment.png>
+Package pdftex.def Info: experiment.png used on input line 369.
+(pdftex.def)             Requested size: 170.71652pt x 96.02194pt.
+
+Overfull \hbox (61.88547pt too wide) in paragraph at lines 369--370
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 370--370
+[]\OT1/cmr/m/n/10 Figure 4: The ex-per-i-
+ []
+
+<nerve_cells.png, id=65, 1927.2pt x 1084.05pt>
+File: nerve_cells.png Graphic file (type png)
+ <use nerve_cells.png>
+Package pdftex.def Info: nerve_cells.png used on input line 376.
+(pdftex.def)             Requested size: 170.71652pt x 96.02194pt.
+
+Overfull \hbox (61.88547pt too wide) in paragraph at lines 376--377
+ [][] 
+ []
+
+<model.png, id=66, 1927.2pt x 1084.05pt>
+File: model.png Graphic file (type png)
+ <use model.png>
+Package pdftex.def Info: model.png used on input line 390.
+(pdftex.def)             Requested size: 113.81102pt x 64.01463pt.
+
+Overfull \hbox (41.25575pt too wide) in paragraph at lines 390--391
+ [][] 
+ []
+
+<neural_net_work.png, id=67, 1927.2pt x 1084.05pt>
+File: neural_net_work.png Graphic file (type png)
+ <use neural_net_work.png>
+Package pdftex.def Info: neural_net_work.png used on input line 397.
+(pdftex.def)             Requested size: 113.81102pt x 64.01463pt.
+
+Overfull \hbox (41.25575pt too wide) in paragraph at lines 397--398
+ [][] 
+ []
+
+<vision.png, id=68, 1927.2pt x 1084.05pt>
+File: vision.png Graphic file (type png)
+ <use vision.png>
+Package pdftex.def Info: vision.png used on input line 404.
+(pdftex.def)             Requested size: 113.81102pt x 64.01463pt.
+
+Overfull \hbox (41.25575pt too wide) in paragraph at lines 404--405
+ [][] 
+ []
+
+[14 <./experiment.png> <./nerve_cells.png>] [15 <./model.png> <./neural_net_wor
+k.png> <./vision.png>] (./the_third_week_report.aux) ) 
 Here is how much of TeX's memory you used:
- 4754 strings out of 493029
- 65392 string characters out of 6136234
- 245592 words of memory out of 5000000
- 8213 multiletter control sequences out of 15000+600000
+ 4956 strings out of 493029
+ 68402 string characters out of 6136234
+ 247410 words of memory out of 5000000
+ 8401 multiletter control sequences out of 15000+600000
  10682 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,8n,58p,485b,1082s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on the_third_week_report.pdf (11 pages, 443272 bytes).
+</usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb>
+Output written on the_third_week_report.pdf (15 pages, 3543458 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
+ 129 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
