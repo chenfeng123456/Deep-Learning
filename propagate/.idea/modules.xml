@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/propagate.iml" filepath="$PROJECT_DIR$/.idea/propagate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/merge_all_functions_into_a_model.iml" filepath="$PROJECT_DIR$/.idea/merge_all_functions_into_a_model.iml" />
     </modules>
   </component>
 </project>

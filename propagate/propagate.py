@@ -48,11 +48,11 @@ def propagate(w, b, X, Y):
     return grads, cost
 
 
-
+'''
 w, b, X, Y = np.array([[1.],[2.]]), 2., np.array([[1.,2.,-1.],[3.,4.,-3.2]]), np.array([[1,0,1]])
 grads, cost = propagate(w, b, X, Y)
 print ("dw = " + str(grads["dw"]))
 print ("db = " + str(grads["db"]))
 print ("cost = " + str(cost))
-
+'''
 
