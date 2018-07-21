@@ -2,13 +2,13 @@
 \contentsline {section}{\numberline {1}Complier}{3}
 \contentsline {subsection}{\numberline {1.1}Pycharm}{3}
 \contentsline {subsection}{\numberline {1.2}Vim}{3}
-\contentsline {subsubsection}{\numberline {1.2.1}The steps of configuring vim\footnote {Main Source: \def \par } \relax \let \reserved@d =[\def \par }{4}
+\contentsline {subsubsection}{\numberline {1.2.1}The steps of configuring vim \footnotemark [1]}{3}
 \contentsline {section}{Practical aspects of DeepLearning}{11}
-\contentsline {section}{\numberline {1}Normalizing inputs}{11}
-\contentsline {subsection}{\numberline {1.1}Explanation}{11}
+\contentsline {section}{\numberline {1}Normalizing inputs}{12}
+\contentsline {subsection}{\numberline {1.1}Explanation}{12}
 \contentsline {subsection}{\numberline {1.2}Steps of normalizing inputs}{13}
-\contentsline {section}{\numberline {2}Mini-batch gradient descent}{14}
-\contentsline {section}{Some thoughts from SeetaTech's vedios}{14}
+\contentsline {section}{\numberline {2}Mini-batch gradient descent}{13}
+\contentsline {section}{Some thoughts from SeetaTech's vedios}{13}
 \contentsline {section}{\numberline {1}How can we see an object}{14}
-\contentsline {section}{\numberline {2}How can we imitate our brains}{15}
+\contentsline {section}{\numberline {2}How can we imitate our brains}{14}
 \contentsline {section}{Learning summary}{15}

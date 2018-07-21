@@ -2,6 +2,8 @@
 
 \usepackage{ctex}
 
+%画图
+\usepackage{tikz}
 
 %添加首行缩进，两个字符
 \usepackage{indentfirst}
@@ -18,6 +20,7 @@
 
 %并排放置两张图
 \usepackage{subfigure}
+\renewcommand{\figurename}{Figure}
 
 %引入了一些改进的数学环境，如align
 \usepackage{amsmath}
@@ -86,10 +89,10 @@
 
 \section{Some Questions Remained}
 
-\subsection{What is Forward and Back propagation}
+\subsection{What is Forward and Back propagation?}
 \indent In short, forward propagation is a way we used to count the value of compound functions. And back propagation is used to count the derivative of compound functions. We needn't complicate them.
 
-\subsection{How can we express the derivative of $\sigma(z)$}
+\subsection{How can we express the derivative of $\sigma(z)$?}
 \indent By taking the derivative of $\sigma(z)$, we can easily get the result:$\sigma'(z)=\sigma(z)(1-\sigma)$.
 \indent Further, we can gain the consequence:
 \begin{align}
@@ -110,7 +113,7 @@ db = \dfrac{\partial L}{\partial b} &=\dfrac{\partial L}{\partial z}\cdot\dfrac{
 &= a-y
 \end{align}
 
-\subsection{Some uses of numpy \protect\footnote{The source of package "pythonhighlight":https://github.com/chenfeng123456/python-latex-highlighting}}
+\subsection{Some uses of numpy. \protect\footnote{The source of package "pythonhighlight":https://github.com/chenfeng123456/python-latex-highlighting}}
 \begin{enumerate}
 \item Creat a vector:
 \begin{python}
@@ -182,6 +185,28 @@ numpy.random.rand(the_length_of_the_array)
 
 
 \end{enumerate} 
+
+\subsection{What do high bias and high variance mean?}
+\indent High bias means that your model can't fit your train set well and high variance means your model overfit the train set so that it can't fit other data well.
+
+\begin{figure}[htbp]
+
+\begin{minipage}[t]{0.45\linewidth}
+\centering
+\includegraphics[width=5cm]{overfit.png}
+\caption{Overfitting}
+\label{overfitting}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+\centering
+\includegraphics[width=5cm]{underfitting.png}
+\caption{Underfitting}
+\label{underfitting}
+\end{minipage}
+\end{figure}
+
+\subsection{How does regularization prevent overfitting?}
 
 
 \end{document}
