@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[10pt]{article}
 
 \usepackage{ctex}
 
@@ -132,7 +132,7 @@ db = \dfrac{\partial L}{\partial b} &=\dfrac{\partial L}{\partial z}\cdot\dfrac{
 	}
 
 
-\section{Some uses of numpy. \protect\footnote{The source of package "pythonhighlight":https://github.com/chenfeng123456/python-latex-highlighting}}
+\section{Some uses of numpy. \protect\footnote{\tiny The source of package "pythonhighlight":https://github.com/chenfeng123456/python-latex-highlighting}}
 \begin{enumerate}
 \item Creat a vector:
 \begin{python}
@@ -197,7 +197,7 @@ Set the same seed every time,
 and we can get the same random numbers
 '''
 numpy.random.seed(num)
-numpy.random.rand(the_length_of_the_array)
+numpy.random.rand(the_length_of_array)
 \end{python}
 
 \end{itemize}
@@ -227,7 +227,7 @@ numpy.random.rand(the_length_of_the_array)
 
 
 
-\section{How does regularization prevent overfitting?}
+\section{\protect\textcolor{red}{How does regularization prevent overfitting?}}
 \indent Regularization is able to reduce overfitting by adding the regularization term, $\dfrac{\lambda}{2m}||w||_{2}^{2}$. So the derivative $\dfrac{\partial L}{\partial W}$ turns into: $dW^{[l]}=(form\_backprop)+\dfrac{\lambda}{m}W^{[l]}$. Then we can get the update of grads as follows:
 \begin{align}
 W^{[l]}:&=W^{[l]}-\alpha [ (form\_backprop)+\dfrac{\lambda}{m}W^{[l]}]\\

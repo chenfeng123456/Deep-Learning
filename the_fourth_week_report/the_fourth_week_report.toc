@@ -1,6 +1,6 @@
 \contentsline {section}{Questions Remained}{3}{section*.1}
 \contentsline {section}{\numberline {1}What is Forward and Back propagation?}{3}{section.1}
 \contentsline {section}{\numberline {2}How can we express the derivative of $\sigma (z)$?}{3}{section.2}
-\contentsline {section}{\numberline {3}Some uses of numpy. \footnote {The source of package "pythonhighlight":https://github.com/chenfeng123456/python-latex-highlighting}}{5}{section.3}
-\contentsline {section}{\numberline {4}What do high bias and high variance mean?}{7}{section.4}
-\contentsline {section}{\numberline {5}How does regularization prevent overfitting?}{8}{section.5}
+\contentsline {section}{\numberline {3}Some uses of numpy. \footnote {\relax \fontsize {5}{6}\selectfont The source of package "pythonhighlight":https://github.com/chenfeng123456/python-latex-highlighting}}{4}{section.3}
+\contentsline {section}{\numberline {4}What do high bias and high variance mean?}{6}{section.4}
+\contentsline {section}{\numberline {5}\textcolor {red}{How does regularization prevent overfitting?}}{7}{section.5}
