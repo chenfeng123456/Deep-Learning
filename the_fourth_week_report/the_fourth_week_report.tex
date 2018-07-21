@@ -14,6 +14,16 @@
 %颜色 用法：\textcolor{name of color}{text}
 \usepackage{xcolor}
 
+
+%超链接
+\usepackage{hyperref}
+\hypersetup{
+	bookmarks=true,
+	colorlinks=true,
+	linkcolor=black
+	}
+
+
 %照片
 \usepackage{graphicx}
 
@@ -88,13 +98,13 @@
 \tableofcontents
 \newpage
 
+\addcontentsline{toc}{section}{Questions Remained}
+\section*{Questions Remained}
 
-\section{Some Questions Remained}
-
-\subsection{What is Forward and Back propagation?}
+\section{What is Forward and Back propagation?}
 \indent In short, forward propagation is a way we used to count the value of compound functions. And back propagation is used to count the derivative of compound functions. We needn't complicate them.
 
-\subsection{How can we express the derivative of $\sigma(z)$?}
+\section{How can we express the derivative of $\sigma(z)$?}
 \indent By taking the derivative of $\sigma(z)$, we can easily get the result:$\sigma'(z)=\sigma(z)(1-\sigma)$.
 \indent Further, we can gain the consequence:
 \begin{align}
@@ -115,7 +125,14 @@ db = \dfrac{\partial L}{\partial b} &=\dfrac{\partial L}{\partial z}\cdot\dfrac{
 &= a-y
 \end{align}
 
-\subsection{Some uses of numpy. \protect\footnote{The source of package "pythonhighlight":https://github.com/chenfeng123456/python-latex-highlighting}}
+\hypersetup{
+	bookmarks=true,
+	colorlinks=true,
+	linkcolor=red
+	}
+
+
+\section{Some uses of numpy. \protect\footnote{The source of package "pythonhighlight":https://github.com/chenfeng123456/python-latex-highlighting}}
 \begin{enumerate}
 \item Creat a vector:
 \begin{python}
@@ -188,21 +205,21 @@ numpy.random.rand(the_length_of_the_array)
 
 \end{enumerate} 
 
-\subsection{What do high bias and high variance mean?}
+\section{What do high bias and high variance mean?}
 \indent High bias means that your model can't fit your train set well and high variance means your model overfit the train set so that it can't fit other data well.
 
 \begin{figure}[htbp]
 
 \begin{minipage}[t]{0.45\linewidth}
 \centering
-\includegraphics[width=5cm]{overfit.png}
+\includegraphics[width=3cm]{overfit.png}
 \caption{Overfitting}
 \label{overfitting}
 \end{minipage}
 \hfill %中间不能空行
 \begin{minipage}[t]{0.45\linewidth}
 \centering
-\includegraphics[width=5cm]{underfitting.png}
+\includegraphics[width=3cm]{underfitting.png}
 \caption{Underfitting}
 \label{underfitting}
 \end{minipage}
@@ -210,13 +227,16 @@ numpy.random.rand(the_length_of_the_array)
 
 
 
-\subsection{How does regularization prevent overfitting?}
+\section{How does regularization prevent overfitting?}
 \indent Regularization is able to reduce overfitting by adding the regularization term, $\dfrac{\lambda}{2m}||w||_{2}^{2}$. So the derivative $\dfrac{\partial L}{\partial W}$ turns into: $dW^{[l]}=(form\_backprop)+\dfrac{\lambda}{m}W^{[l]}$. Then we can get the update of grads as follows:
 \begin{align}
-W^{[l]}:&=W^{[l]}-\alpha [ (form\_backprop)+\dfrac{\lambda}{m}W^{[l]}\\
+W^{[l]}:&=W^{[l]}-\alpha [ (form\_backprop)+\dfrac{\lambda}{m}W^{[l]}]\\
 &=W^{[l]}-\alpha\dfrac{\lambda}{m}W^{[l]}-\alpha(form\_backprop)\\
 &=(1-\dfrac{\alpha\lambda}{m})W^{[l]}-\alpha(form\_backprop)
 \end{align} 
+
+
+
 
 \indent If $\lambda$ is big enough, the weight matrix $W$ can be very small, and so does the $Z$. As the Figure \ref{tanh} shows, when $Z$ is relatively small, $tanh(Z)$ could be almost linear. We have known that when $g(x)$ is linear, no matter how deep the neural network is, what it counts is alaways a linear function which can't fit very complicate data.
 
@@ -227,7 +247,7 @@ W^{[l]}:&=W^{[l]}-\alpha [ (form\_backprop)+\dfrac{\lambda}{m}W^{[l]}\\
 \begin{tikzpicture}[yscale=1.5]
 \draw [help lines, <->] (-4,0) -- (4,0);
 \draw [help lines, ->] (0,-1.1) -- (0,1.1);
-\draw [green,domain=-4:4] plot (\x,{tanh(\x)});
+\draw [blue,domain=-4:4] plot (\x,{tanh(\x)});
 \draw[fill] (0.5,{tanh(0.5)}) circle [radius=0.025];
 \node [below right, red] at (0.5,{tanh(0.5)}){$A$};
 \draw[fill] (-0.5,{tanh(-0.5)}) circle [radius=0.025];
