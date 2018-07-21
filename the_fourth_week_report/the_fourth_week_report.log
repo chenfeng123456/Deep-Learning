@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.5.21)  20 JUL 2018 21:12
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.5.21)  20 JUL 2018 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1097,13 +1097,29 @@ ai-Regular}].
 )) (/usr/share/texlive/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2016/02/02 v2.3 Configuration file (CTEX)
 )
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen172
+\captionmargin@=\dimen173
+\captionwidth=\dimen174
+\caption@tempdima=\dimen175
+\caption@indent=\dimen176
+\caption@parindent=\dimen177
+\caption@hangindent=\dimen178
+)
+\c@ContinuedFloat=\count135
+)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks19
-\pgfutil@tempdima=\dimen172
-\pgfutil@tempdimb=\dimen173
+\pgfutil@tempdima=\dimen179
+\pgfutil@tempdimb=\dimen180
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -1129,20 +1145,20 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 ex
 \pgfkeys@tmptoks=\toks22
 ))
-\pgf@x=\dimen174
-\pgf@y=\dimen175
-\pgf@xa=\dimen176
-\pgf@ya=\dimen177
-\pgf@xb=\dimen178
-\pgf@yb=\dimen179
-\pgf@xc=\dimen180
-\pgf@yc=\dimen181
+\pgf@x=\dimen181
+\pgf@y=\dimen182
+\pgf@xa=\dimen183
+\pgf@ya=\dimen184
+\pgf@xb=\dimen185
+\pgf@yb=\dimen186
+\pgf@xc=\dimen187
+\pgf@yc=\dimen188
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count135
-\c@pgf@countb=\count136
-\c@pgf@countc=\count137
-\c@pgf@countd=\count138
+\c@pgf@counta=\count136
+\c@pgf@countb=\count137
+\c@pgf@countc=\count138
+\c@pgf@countd=\count139
 \t@pgf@toka=\toks23
 \t@pgf@tokb=\toks24
 \t@pgf@tokc=\toks25
@@ -1161,13 +1177,13 @@ File: pgfsys-dvipdfmx.def 2014/07/09  (rcs-revision 1.14)
 f
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )
-\pgfsys@objnum=\count139
+\pgfsys@objnum=\count140
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count140
-\pgfsyssoftpath@bigbuffer@items=\count141
+\pgfsyssoftpath@smallbuffer@items=\count141
+\pgfsyssoftpath@bigbuffer@items=\count142
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -1195,8 +1211,8 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen182
-\pgfmath@count=\count142
+\pgfmath@dimen=\dimen189
+\pgfmath@count=\count143
 \pgfmath@box=\box54
 \pgfmath@toks=\toks26
 \pgfmath@stack@operand=\toks27
@@ -1220,37 +1236,37 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count143
+\c@pgfmathroundto@lastzeros=\count144
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen183
-\pgf@picmaxx=\dimen184
-\pgf@picminy=\dimen185
-\pgf@picmaxy=\dimen186
-\pgf@pathminx=\dimen187
-\pgf@pathmaxx=\dimen188
-\pgf@pathminy=\dimen189
-\pgf@pathmaxy=\dimen190
-\pgf@xx=\dimen191
-\pgf@xy=\dimen192
-\pgf@yx=\dimen193
-\pgf@yy=\dimen194
-\pgf@zx=\dimen195
-\pgf@zy=\dimen196
+\pgf@picminx=\dimen190
+\pgf@picmaxx=\dimen191
+\pgf@picminy=\dimen192
+\pgf@picmaxy=\dimen193
+\pgf@pathminx=\dimen194
+\pgf@pathmaxx=\dimen195
+\pgf@pathminy=\dimen196
+\pgf@pathmaxy=\dimen197
+\pgf@xx=\dimen198
+\pgf@xy=\dimen199
+\pgf@yx=\dimen256
+\pgf@yy=\dimen257
+\pgf@zx=\dimen258
+\pgf@zy=\dimen259
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen197
-\pgf@path@lasty=\dimen198
+\pgf@path@lastx=\dimen260
+\pgf@path@lasty=\dimen261
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen199
-\pgf@shorten@start@additional=\dimen256
+\pgf@shorten@end@additional=\dimen262
+\pgf@shorten@start@additional=\dimen263
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
@@ -1258,19 +1274,19 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box55
 \pgf@hbox=\box56
 \pgf@layerbox@main=\box57
-\pgf@picture@serial@count=\count144
+\pgf@picture@serial@count=\count145
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen257
+\pgflinewidth=\dimen264
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen258
-\pgf@pt@y=\dimen259
-\pgf@pt@temp=\dimen260
+\pgf@pt@x=\dimen265
+\pgf@pt@y=\dimen266
+\pgf@pt@temp=\dimen267
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -1286,12 +1302,12 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen261
+\pgfarrowsep=\dimen268
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen262
-\pgf@sys@shading@range@num=\count145
+\pgf@max=\dimen269
+\pgf@sys@shading@range@num=\count146
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -1322,8 +1338,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen263
-\pgf@nodesepend=\dimen264
+\pgf@nodesepstart=\dimen270
+\pgf@nodesepend=\dimen271
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -1337,8 +1353,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen265
-\pgffor@skip=\dimen266
+\pgffor@iter=\dimen272
+\pgffor@skip=\dimen273
 \pgffor@stack=\toks29
 \pgffor@toks=\toks30
 ))
@@ -1348,31 +1364,31 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count146
-\pgfplotmarksize=\dimen267
+\pgf@plot@mark@count=\count147
+\pgfplotmarksize=\dimen274
 )
-\tikz@lastx=\dimen268
-\tikz@lasty=\dimen269
-\tikz@lastxsaved=\dimen270
-\tikz@lastysaved=\dimen271
-\tikzleveldistance=\dimen272
-\tikzsiblingdistance=\dimen273
+\tikz@lastx=\dimen275
+\tikz@lasty=\dimen276
+\tikz@lastxsaved=\dimen277
+\tikz@lastysaved=\dimen278
+\tikzleveldistance=\dimen279
+\tikzsiblingdistance=\dimen280
 \tikz@figbox=\box60
 \tikz@figbox@bg=\box61
 \tikz@tempbox=\box62
 \tikz@tempbox@bg=\box63
-\tikztreelevel=\count147
-\tikznumberofchildren=\count148
-\tikznumberofcurrentchild=\count149
-\tikz@fig@count=\count150
+\tikztreelevel=\count148
+\tikznumberofchildren=\count149
+\tikznumberofcurrentchild=\count150
+\tikz@fig@count=\count151
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count151
-\pgfmatrixcurrentcolumn=\count152
-\pgf@matrix@numberofcolumns=\count153
+\pgfmatrixcurrentrow=\count152
+\pgfmatrixcurrentcolumn=\count153
+\pgf@matrix@numberofcolumns=\count154
 )
-\tikz@expandcount=\count154
+\tikz@expandcount=\count155
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1383,23 +1399,23 @@ Package: pythonhighlight 2011/09/19 python code highlighting; provided by Olivi
 er Verdier <olivier.verdier@gmail.com>
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count155
+\lst@mode=\count156
 \lst@gtempboxa=\box64
 \lst@token=\toks31
-\lst@length=\count156
-\lst@currlwidth=\dimen274
-\lst@column=\count157
-\lst@pos=\count158
-\lst@lostspace=\dimen275
-\lst@width=\dimen276
-\lst@newlines=\count159
-\lst@lineno=\count160
-\lst@maxwidth=\dimen277
+\lst@length=\count157
+\lst@currlwidth=\dimen281
+\lst@column=\count158
+\lst@pos=\count159
+\lst@lostspace=\dimen282
+\lst@width=\dimen283
+\lst@newlines=\count160
+\lst@lineno=\count161
+\lst@maxwidth=\dimen284
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count161
-\lst@skipnumbers=\count162
+\c@lstnumber=\count162
+\lst@skipnumbers=\count163
 \lst@framebox=\box65
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
@@ -1411,14 +1427,14 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip59
 \subfigcapskip=\skip60
-\subfigcaptopadj=\dimen278
+\subfigcaptopadj=\dimen285
 \subfigbottomskip=\skip61
-\subfigcapmargin=\dimen279
+\subfigcapmargin=\dimen286
 \subfiglabelskip=\skip62
-\c@subfigure=\count163
-\c@lofdepth=\count164
-\c@subtable=\count165
-\c@lotdepth=\count166
+\c@subfigure=\count164
+\c@lofdepth=\count165
+\c@subtable=\count166
+\c@lotdepth=\count167
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -1438,46 +1454,46 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks32
-\ex@=\dimen280
+\ex@=\dimen287
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen281
+\pmbraise@=\dimen288
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count167
+\inf@bad=\count168
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count168
-\leftroot@=\count169
+\uproot@=\count169
+\leftroot@=\count170
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count170
-\DOTSCASE@=\count171
+\classnum@=\count171
+\DOTSCASE@=\count172
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box66
 \strutbox@=\box67
-\big@size=\dimen282
+\big@size=\dimen289
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count172
-\c@MaxMatrixCols=\count173
+\macc@depth=\count173
+\c@MaxMatrixCols=\count174
 \dotsspace@=\muskip17
-\c@parentequation=\count174
-\dspbrk@lvl=\count175
+\c@parentequation=\count175
+\dspbrk@lvl=\count176
 \tag@help=\toks33
-\row@=\count176
-\column@=\count177
-\maxfields@=\count178
+\row@=\count177
+\column@=\count178
+\maxfields@=\count179
 \andhelp@=\toks34
-\eqnshift@=\dimen283
-\alignsep@=\dimen284
-\tagshift@=\dimen285
-\tagwidth@=\dimen286
-\totwidth@=\dimen287
-\lineht@=\dimen288
+\eqnshift@=\dimen290
+\alignsep@=\dimen291
+\tagshift@=\dimen292
+\tagwidth@=\dimen293
+\totwidth@=\dimen294
+\lineht@=\dimen295
 \@envbody=\toks35
 \multlinegap=\skip66
 \multlinetaggap=\skip67
@@ -1506,52 +1522,52 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count179
-\Gm@cntv=\count180
-\c@Gm@tempcnt=\count181
-\Gm@bindingoffset=\dimen289
-\Gm@wd@mp=\dimen290
-\Gm@odd@mp=\dimen291
-\Gm@even@mp=\dimen292
-\Gm@layoutwidth=\dimen293
-\Gm@layoutheight=\dimen294
-\Gm@layouthoffset=\dimen295
-\Gm@layoutvoffset=\dimen296
+\Gm@cnth=\count180
+\Gm@cntv=\count181
+\c@Gm@tempcnt=\count182
+\Gm@bindingoffset=\dimen296
+\Gm@wd@mp=\dimen297
+\Gm@odd@mp=\dimen298
+\Gm@even@mp=\dimen299
+\Gm@layoutwidth=\dimen300
+\Gm@layoutheight=\dimen301
+\Gm@layouthoffset=\dimen302
+\Gm@layoutvoffset=\dimen303
 \Gm@dimlist=\toks38
 )
 (/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2016/02/10 v3.3.4 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count182
-\l__xeCJK_listings_flag_int=\count183
+\l__xeCJK_listings_max_char_int=\count183
+\l__xeCJK_listings_flag_int=\count184
 )
 (./the_fourth_week_report.aux)
 \openout1 = `the_fourth_week_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 82.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 84.
  (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    ... okay on input line 84.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 82.
+LaTeX Info: Redefining \selectfont on input line 84.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1559,58 +1575,62 @@ LaTeX Info: Redefining \selectfont on input line 82.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 82.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 82.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 82.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 82.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 82.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 82.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 82.
-LaTeX Font Info:    Redeclaring math accent \check on input line 82.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 82.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 82.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 82.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 82.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 84.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 84.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 84.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 84.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 84.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 84.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 84.
+LaTeX Font Info:    Redeclaring math accent \check on input line 84.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 84.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 84.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 84.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 84.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 82.
+(Font)              `operators' in the math version `normal' on input line 84.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU1/lmr/m/n on input line 82.
+(Font)                  OT1/cmr/m/n --> EU1/lmr/m/n on input line 84.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 82.
+(Font)              `operators' in the math version `bold' on input line 84.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU1/lmr/m/n on input line 82.
+(Font)                  OT1/cmr/bx/n --> EU1/lmr/m/n on input line 84.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 82.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU1/lmr/m/it on input line 82.
+(Font)                  OT1/cmr/m/it --> EU1/lmr/m/it on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU1/lmr/bx/n on input line 82.
+(Font)                  OT1/cmr/bx/n --> EU1/lmr/bx/n on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 82.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 82.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 84.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 82.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> EU1/lmr/bx/it on input line 82.
+(Font)                  OT1/cmr/bx/it --> EU1/lmr/bx/it on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 82.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 82.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 84.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: subfigure package is loaded.
+Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
-\c@lstlisting=\count184
+\c@lstlisting=\count185
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1664,7 +1684,7 @@ Overfull \hbox (69.8309pt too wide) in paragraph at lines 4--4
  [1
 
 ] [2] [3]
-Overfull \hbox (69.8309pt too wide) in paragraph at lines 116--116
+Overfull \hbox (69.8309pt too wide) in paragraph at lines 118--118
 [][]\EU1/lmr/m/n/7.52812 The source of package ”pythonhighlight”:https://github
 .com/chenfeng123456/python-
  []
@@ -1674,8 +1694,8 @@ Overfull \hbox (69.8309pt too wide) in paragraph at lines 116--116
 * 
 * Font 'FandolFang-Regular' does not contain script 'CJK'.
 *************************************************
-\g__fontspec_family_FandolFang-Regular_int=\count185
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 119
+\g__fontspec_family_FandolFang-Regular_int=\count186
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 121
 .
 (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1696,37 +1716,46 @@ File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: overfit.png Graphic file (type QTm)
 
 <use  "overfit.png" >
-Overfull \hbox (33.43272pt too wide) in paragraph at lines 196--197
+Overfull \hbox (33.43272pt too wide) in paragraph at lines 198--199
  [][] 
  []
 
 File: underfitting.png Graphic file (type QTm)
 <use  "underfitting.png" >
-Overfull \hbox (33.43272pt too wide) in paragraph at lines 203--204
+Overfull \hbox (33.43272pt too wide) in paragraph at lines 205--206
  [][] 
  []
 
 
-Overfull \hbox (8.31416pt too wide) in paragraph at lines 209--209
+Overfull \hbox (8.31416pt too wide) in paragraph at lines 213--213
 []\EU1/lmr/bx/n/12.045 How does regularization prevent over-
  []
 
-[7] (./the_fourth_week_report.aux)
+
+Overfull \hbox (8.77737pt too wide) in paragraph at lines 214--215
+\EU1/lmr/m/n/10.53937 derivative $[]$ turns into: $\OML/cmm/m/it/10.53937 dW[] 
+\OT1/cmr/m/n/10.53937 = (\OML/cmm/m/it/10.53937 form[]backprop\OT1/cmr/m/n/10.5
+3937 ) +
+ []
+
+[7]
+Overfull \hbox (1.1474pt too wide) in paragraph at lines 237--238
+[][] 
+ []
+
+[8] [9] (./the_fourth_week_report.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 32199 strings out of 493638
- 650030 string characters out of 6146796
- 674965 words of memory out of 5000000
- 35170 multiletter control sequences out of 15000+600000
+ 33384 strings out of 493638
+ 672277 string characters out of 6146796
+ 694920 words of memory out of 5000000
+ 36349 multiletter control sequences out of 15000+600000
  10085 words of font info for 61 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 65i,9n,77p,10428b,1580s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,10n,77p,10428b,1580s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on the_fourth_week_report.pdf (7 pages).
+Output written on the_fourth_week_report.pdf (9 pages).

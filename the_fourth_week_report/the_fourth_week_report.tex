@@ -2,6 +2,8 @@
 
 \usepackage{ctex}
 
+
+\usepackage{caption}
 %画图
 \usepackage{tikz}
 
@@ -18,7 +20,7 @@
 %插入python
 \usepackage{pythonhighlight}
 
-%并排放置两张图
+%并排放置两张图 两图的命令中间不能空行
 \usepackage{subfigure}
 \renewcommand{\figurename}{Figure}
 
@@ -197,7 +199,7 @@ numpy.random.rand(the_length_of_the_array)
 \caption{Overfitting}
 \label{overfitting}
 \end{minipage}
-\hfill
+\hfill %中间不能空行
 \begin{minipage}[t]{0.45\linewidth}
 \centering
 \includegraphics[width=5cm]{underfitting.png}
@@ -206,7 +208,37 @@ numpy.random.rand(the_length_of_the_array)
 \end{minipage}
 \end{figure}
 
+
+
 \subsection{How does regularization prevent overfitting?}
+\indent Regularization is able to reduce overfitting by adding the regularization term, $\dfrac{\lambda}{2m}||w||_{2}^{2}$. So the derivative $\dfrac{\partial L}{\partial W}$ turns into: $dW^{[l]}=(form\_backprop)+\dfrac{\lambda}{m}W^{[l]}$. Then we can get the update of grads as follows:
+\begin{align}
+W^{[l]}:&=W^{[l]}-\alpha [ (form\_backprop)+\dfrac{\lambda}{m}W^{[l]}\\
+&=W^{[l]}-\alpha\dfrac{\lambda}{m}W^{[l]}-\alpha(form\_backprop)\\
+&=(1-\dfrac{\alpha\lambda}{m})W^{[l]}-\alpha(form\_backprop)
+\end{align} 
+
+\indent If $\lambda$ is big enough, the weight matrix $W$ can be very small, and so does the $Z$. As the Figure \ref{tanh} shows, when $Z$ is relatively small, $tanh(Z)$ could be almost linear. We have known that when $g(x)$ is linear, no matter how deep the neural network is, what it counts is alaways a linear function which can't fit very complicate data.
+
+\indent Of course we need't keep $Z$ so small all the time, but we can find a reasonable range that makes our model "just right".
+
+\par
+\begin{figure}[htbp]
+\begin{tikzpicture}[yscale=1.5]
+\draw [help lines, <->] (-4,0) -- (4,0);
+\draw [help lines, ->] (0,-1.1) -- (0,1.1);
+\draw [green,domain=-4:4] plot (\x,{tanh(\x)});
+\draw[fill] (0.5,{tanh(0.5)}) circle [radius=0.025];
+\node [below right, red] at (0.5,{tanh(0.5)}){$A$};
+\draw[fill] (-0.5,{tanh(-0.5)}) circle [radius=0.025];
+\node [above left, red] at (-0.5,{tanh(-0.5)}){$B$};
+\node [right, black] at (4,0){$Z$};
+\node [above, black] at (0,1.1){$tanh(Z)$};
+\end{tikzpicture}
+\caption{$tanh(Z)$ function}
+\label{tanh}%label 必须放在caption后面
+\end{figure}
+
 
 
 \end{document}
