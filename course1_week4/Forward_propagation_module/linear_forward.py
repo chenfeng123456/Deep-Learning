@@ -1,11 +1,11 @@
 # GRADED FUNCTION: linear_forward
 
 import sys
-sys.path.append(r'/home/luguorui/PycharmProjects')
+sys.path.append(r'/home/luguorui/PycharmProjects/course1_week4')
 
 
 import numpy as np
-from course1_week4.testCases_v3 import *
+from testCases_v3 import *
 
 def linear_forward(A, W, b):
     """

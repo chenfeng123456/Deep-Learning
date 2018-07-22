@@ -5,6 +5,8 @@ import sys
 sys.path.append(r'/home/luguorui/PycharmProjects/course1_week4')
 from Forward_propagation_module.linear_activation_forward import linear_activation_forward
 from practice_using_packages import *
+
+
 def L_model_forward(X, parameters):
     """
     Implement forward propagation for the [LINEAR->RELU]*(L-1)->LINEAR->SIGMOID computation
@@ -24,13 +26,17 @@ def L_model_forward(X, parameters):
     A = X
     L = len(parameters) // 2 # 地板除 number of layers in the neural network
 
-    print(L)
+    # print(L)
 
     # Implement [LINEAR -> RELU]*(L-1). Add "cache" to the "caches" list.
     for l in range(1, L):
         A_prev = A
         ### START CODE HERE ### (≈ 2 lines of code)
         A, cache = linear_activation_forward(A_prev, parameters['W' + str(l)], parameters['b' + str(l)], "relu")
+        '''
+        cache == (linear_cache, activation_cache), where linear_cache == (A, W, b)
+        and activation_cache == Z      
+        '''
         caches.append(cache)
         ### END CODE HERE ###
 
@@ -44,10 +50,10 @@ def L_model_forward(X, parameters):
 
     return AL, caches
 
-'''
+
 X, parameters = L_model_forward_test_case_2hidden()
 AL, caches = L_model_forward(X, parameters)
 print("AL = " + str(AL))
 print("Length of caches list = " + str(len(caches)))
-'''
+
 

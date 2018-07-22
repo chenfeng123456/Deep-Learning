@@ -31,8 +31,8 @@ def linear_activation_forward(A_prev, W, b, activation):
     if activation == "sigmoid":
         # Inputs: "A_prev, W, b". Outputs: "A, activation_cache".
         ### START CODE HERE ### (≈ 2 lines of code)
-        Z, linear_cache = linear_forward(A_prev, W, b)
-        A, activation_cache = sigmoid(Z)
+        Z, linear_cache = linear_forward(A_prev, W, b) #linear_cache == (A, W, b)
+        A, activation_cache = sigmoid(Z)  # sigmoid return A, cache (which is equal to Z)
         ### END CODE HERE ###
 
 
@@ -40,7 +40,7 @@ def linear_activation_forward(A_prev, W, b, activation):
         # Inputs: "A_prev, W, b". Outputs: "A, activation_cache".
         ### START CODE HERE ### (≈ 2 lines of code)
         Z, linear_cache = linear_forward(A_prev, W, b)
-        A, activation_cache = relu(Z)
+        A, activation_cache = relu(Z) # activation_cache == Z
         ### END CODE HERE ###
 
 
