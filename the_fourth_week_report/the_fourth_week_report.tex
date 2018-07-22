@@ -22,7 +22,8 @@
 	colorlinks=true,
 	linkcolor=black
 	}
-
+%得到引用的标题内容
+\usepackage{nameref} 
 
 %照片
 \usepackage{graphicx}
@@ -53,31 +54,54 @@
 \definecolor{CPPViolet} {HTML} {7040A0}
 \definecolor{CPPGray}  {HTML} {B8B8B8}
 \lstset{
+	language=Python,                                     % 设置语言
     columns=fixed,    
     breaklines = true,   
+    basicstyle=\tiny ,
     numbers=left,                                        % 在左侧显示行号
-    frame=none,                                          % 不显示背景边框
+    %frame=none,                                          % 不显示背景边框
     backgroundcolor=\color[RGB]{245,245,244},            % 设定背景颜色
     keywordstyle=\color[RGB]{40,40,255},                 % 设定关键字颜色
-    numberstyle=\footnotesize\color{darkgray},           % 设定行号格式
-    commentstyle=\it\color[RGB]{0,96,96},                % 设置代码注释的格式
+    numberstyle=\tiny\color{darkgray},           % 设定行号格式
+    %commentstyle=\it\color[RGB]{0,96,96},                % 设置代码注释的格式
     stringstyle=\rmfamily\slshape\color[RGB]{128,0,0},   % 设置字符串格式
-    showstringspaces=false,                              % 不显示字符串中的空格
-    language=Python,                                        % 设置语言
-    morekeywords={True,alignas,continute,friend,register,true,alignof,decltype,goto,
-    reinterpret_cast,try,asm,defult,if,return,typedef,auto,delete,inline,short,
-    typeid,bool,do,int,signed,typename,break,double,long,sizeof,union,case,
-    dynamic_cast,mutable,static,unsigned,catch,else,namespace,static_assert,using,
-    char,enum,new,static_cast,virtual,char16_t,char32_t,explict,noexcept,struct,
-    void,export,nullptr,switch,volatile,class,extern,operator,template,wchar_t,
-    const,false,private,this,while,constexpr,float,protected,thread_local,
-    const_cast,for,public,throw,std},
-    emph={map,set,multimap,multiset,unordered_map,unordered_set,
-    unordered_multiset,unordered_multimap,vector,string,list,deque,
-    array,stack,forwared_list,iostream,memory,shared_ptr,unique_ptr,
-    random,bitset,ostream,istream,cout,cin,endl,move,default_random_engine,
-    uniform_int_distribution,iterator,algorithm,functional,bing,numeric,},
+    showstringspaces=false,                              % 不显示字符串中的空格                           
+    %morekeywords={True,alignas,continute,friend,register,true,alignof,decltype,goto,
+    %reinterpret_cast,try,asm,defult,if,return,typedef,auto,delete,inline,short,
+    %typeid,bool,do,int,signed,typename,break,double,long,sizeof,union,case,
+    %dynamic_cast,mutable,static,unsigned,catch,else,namespace,static_assert,using,
+    %char,enum,new,static_cast,virtual,char16_t,char32_t,explict,noexcept,struct,
+    %void,export,nullptr,switch,volatile,class,extern,operator,template,wchar_t,
+    %const,false,private,this,while,constexpr,float,protected,thread_local,
+    %const_cast,for,public,throw,std,rand},
+    emph={access,and,break,class,continue,def,del,elif ,else,%
+	except,exec,finally,for,from,global,if,import,in,i s,%
+	lambda,not,or,pass,print,raise,return,try,while},
     emphstyle=\color{CPPViolet}, 
+    emph={[2]True, False, None, self},
+	emphstyle=[2]\color{green},
+	emph={[3]from, import, as},
+	emphstyle=[3]\color{blue},
+	upquote=true,
+	morecomment=[s]{"""}{"""},
+	commentstyle=\color{orange}\slshape,
+	emph={[4]1, 2, 3, 4, 5, 6, 7, 8, 9, 0},
+	emphstyle=[4]\color{red},
+	emph={[5]numpy, np, plt},
+	emphstyle=[5]\color{red},
+	literate=*{:}{{\textcolor{blue}:}}{1}%
+	{=}{{\textcolor{blue}=}}{1}%
+	{-}{{\textcolor{blue}-}}{1}%
+	{+}{{\textcolor{blue}+}}{1}%
+	{*}{{\textcolor{blue}*}}{1}%
+	{!}{{\textcolor{blue}!}}{1}%
+	{(}{{\textcolor{blue}(}}{1}%
+	{)}{{\textcolor{blue})}}{1}%
+	{[}{{\textcolor{blue}[}}{1}%
+	{]}{{\textcolor{blue}]}}{1}%
+	{<}{{\textcolor{blue}<}}{1}%
+	{>}{{\textcolor{blue}>}}{1},%
+	framexleftmargin=0.1mm, framextopmargin=0.1mm, frame=shadowbox, rulesepcolor=\color{black},
 }
 
 
@@ -88,7 +112,7 @@
 \date{2018.7.22}
 
 %改变页边距
-\usepackage[a6paper,left=10mm,right=10mm,top=15mm,bottom=15mm]{geometry}
+\usepackage[a6paper,left=5mm,right=5mm,top=10mm,bottom=10mm]{geometry}
 
 
 \begin{document}
@@ -98,13 +122,13 @@
 \tableofcontents
 \newpage
 
-\addcontentsline{toc}{section}{Questions Remained}
-\section*{Questions Remained}
+%\addcontentsline{toc}{section}{Questions Remained}
+\section{Questions Remained}
 
-\section{What is Forward and Back propagation?}
+\subsection{What is Forward and Back propagation?}
 \indent In short, forward propagation is a way we used to count the value of compound functions. And back propagation is used to count the derivative of compound functions. We needn't complicate them.
 
-\section{How can we express the derivative of $\sigma(z)$?}
+\subsection{How can we express the derivative of $\sigma(z)$?}
 \indent By taking the derivative of $\sigma(z)$, we can easily get the result:$\sigma'(z)=\sigma(z)(1-\sigma)$.
 \indent Further, we can gain the consequence:
 \begin{align}
@@ -128,11 +152,15 @@ db = \dfrac{\partial L}{\partial b} &=\dfrac{\partial L}{\partial z}\cdot\dfrac{
 \hypersetup{
 	bookmarks=true,
 	colorlinks=true,
-	linkcolor=red
+	linkcolor=red,
+	urlcolor=blue
 	}
 
 
-\section{Some uses of numpy. \protect\footnote{\tiny The source of package "pythonhighlight":https://github.com/chenfeng123456/python-latex-highlighting}}
+\subsection{Some uses of numpy. \protect\footnotemark[1]}
+\footnotetext[1]{\tiny The source of package "pythonhighlight":\url{https://github.com/chenfeng123456/python-latex-highlighting}}
+
+
 \begin{enumerate}
 \item Creat a vector:
 \begin{python}
@@ -198,6 +226,7 @@ and we can get the same random numbers
 '''
 numpy.random.seed(num)
 numpy.random.rand(the_length_of_array)
+
 \end{python}
 
 \end{itemize}
@@ -205,21 +234,24 @@ numpy.random.rand(the_length_of_array)
 
 \end{enumerate} 
 
-\section{What do high bias and high variance mean?}
+
+
+
+\subsection{What do high bias and high variance mean?}
 \indent High bias means that your model can't fit your train set well and high variance means your model overfit the train set so that it can't fit other data well.
 
 \begin{figure}[htbp]
 
 \begin{minipage}[t]{0.45\linewidth}
 \centering
-\includegraphics[width=3cm]{overfit.png}
+\includegraphics[width=5cm]{overfit.png}
 \caption{Overfitting}
 \label{overfitting}
 \end{minipage}
 \hfill %中间不能空行
 \begin{minipage}[t]{0.45\linewidth}
 \centering
-\includegraphics[width=3cm]{underfitting.png}
+\includegraphics[width=5cm]{underfitting.png}
 \caption{Underfitting}
 \label{underfitting}
 \end{minipage}
@@ -227,7 +259,7 @@ numpy.random.rand(the_length_of_array)
 
 
 
-\section{\protect\textcolor{red}{How does regularization prevent overfitting?}}
+\subsection{\protect\textcolor{red}{How does regularization prevent overfitting?}}
 \indent Regularization is able to reduce overfitting by adding the regularization term, $\dfrac{\lambda}{2m}||w||_{2}^{2}$. So the derivative $\dfrac{\partial L}{\partial W}$ turns into: $dW^{[l]}=(form\_backprop)+\dfrac{\lambda}{m}W^{[l]}$. Then we can get the update of grads as follows:
 \begin{align}
 W^{[l]}:&=W^{[l]}-\alpha [ (form\_backprop)+\dfrac{\lambda}{m}W^{[l]}]\\
@@ -242,8 +274,8 @@ W^{[l]}:&=W^{[l]}-\alpha [ (form\_backprop)+\dfrac{\lambda}{m}W^{[l]}]\\
 
 \indent Of course we need't keep $Z$ so small all the time, but we can find a reasonable range that makes our model "just right".
 
-\par
 \begin{figure}[htbp]
+\centering
 \begin{tikzpicture}[yscale=1.5]
 \draw [help lines, <->] (-4,0) -- (4,0);
 \draw [help lines, ->] (0,-1.1) -- (0,1.1);
@@ -259,6 +291,46 @@ W^{[l]}:&=W^{[l]}-\alpha [ (form\_backprop)+\dfrac{\lambda}{m}W^{[l]}]\\
 \label{tanh}%label 必须放在caption后面
 \end{figure}
 
+
+\section{Works}
+\indent This week, I alse do the homework of course1. It isn't an easy process. I had to add tons of codes to ensure that the works can run correctly in my computer. And there are still some codes remained to be understood, which I think I will do again.
+
+\indent It is worth mentioning that I finished all the codes ultimately but couldn't get the right output. Fortunately, I finally found the answer on the Internet(see \autoref{code:vanish}). 
+
+
+
+\begin{lstlisting}[language=Python,caption={The solution of vanishing gradients},label={code:vanish}]
+    #解决了。应该是参数问题。  
+    import numpy as np
+    def initialize_parameters_deep(layer_dims):  
+        """ 
+        Arguments: 
+        layer_dims -- python array (list) containing the dimensions of each layer in our network 
+     
+        Returns: 
+        parameters -- python dictionary containing your parameters "W1", "b1", ..., "WL", "bL": 
+                        Wl -- weight matrix of shape (layer_dims[l], layer_dims[l-1]) 
+                        bl -- bias vector of shape (layer_dims[l], 1) 
+        """  
+      
+        np.random.seed(1)  
+        parameters = {}  
+        L = len(layer_dims)  # number of layers in the network  
+      
+        for l in range(1, L):  
+            parameters['W' + str(l)] = np.random.randn(layer_dims[l], layer_dims[l - 1]) / np.sqrt(  
+                layer_dims[l - 1])  # *0.01  
+            parameters['b' + str(l)] = np.zeros((layer_dims[l], 1))  
+      
+            assert (parameters['W' + str(l)].shape == (layer_dims[l], layer_dims[l - 1]))  
+            assert (parameters['b' + str(l)].shape == (layer_dims[l], 1))  
+      
+        return parameters  
+\end{lstlisting}
+
+\section{Learning summary}
+
+\indent Because I have watched too fast before (I finished the first and the second course within two or three weeks) and lacked practice, I didn't understand much about the videos. So I decided to watch them again and do more exercise. Now a week has passed, and I have figure out many problems which have been confusing me for a long time. The next week I'll stick to the plan and finish the second coure's homework.
 
 
 \end{document}
