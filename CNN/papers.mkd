@@ -1,0 +1,59 @@
+1. [Sketch2photo: Internet image montage](http://orca.cf.ac.uk/45692/1/a124-chen.pdf) 2009
+
+- [Mindfinder: interactive sketch-based image search on millions of images](http://xueshu.baidu.com/s?wd=Mindfinder%3A+interactive+sketch-based+image+search+on+millions+of+images&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Edgel+index+for+large-scale+sketch+based+image+search&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2010
+
+- [Anevaluation of descriptors for large-scale image retrieval from sketched feature lines](http://xueshu.baidu.com/s?wd=Anevaluation+of+descriptors+for+large-scale+image+retrieval+from+sketched+feature+lines&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Mindfinder%3A+interactive+sketch-based+image+search+on+millions+of+images&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2010
+
+- [Gradient field descriptor for sketch based retrieval and localization](http://xueshu.baidu.com/s?wd=Gradient+field+descriptor+for+sketch+based+retrieval+and+localization&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Improved+training+of+wasserstein+gans&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2010
+
+- [Mindfinder: image search by interactive sketching and tagging](http://xueshu.baidu.com/s?wd=Mindfinder%3A+image+search+by+interactive+sketching+and+tagging&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=paperuri%3A%281481c44fdbcefa36c1a6acedcad6c604%29&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2010
+
+- [Edgel index for large-scale sketch based image search](http://xueshu.baidu.com/s?wd=Edgel+index+for+large-scale+sketch+based+image+search&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Sketch2photo%3A+Internet+image+montage&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2011
+
+
+
+- [Photosketcher: Interactive sketch-based image synthesis](http://xueshu.baidu.com/s?wd=Photosketcher%3A+Interactive+sketch-based+image+synthesis&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Anevaluation+of+descriptors+for+large-scale+image+retrieval+from+sketched+fe&f=8&rsv_bp=1&rsv_sug2=0&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2011
+
+- [A bag-of-region approach to sketch-based image retrieval](http://xueshu.baidu.com/s?wd=A+bag-of-region+approach+to+sketch-based+image+retrieval&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=paperuri%3A%280f8ecbb356489b04052e96ad7f78d3f4%29&f=8&rsv_bp=1&rsv_sug2=0&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2011
+
+- [A performance evaluation of gradient field hog description for sketch based image retrieval](http://xueshu.baidu.com/s?wd=paperuri%3A%280f8ecbb356489b04052e96ad7f78d3f4%29&filter=sc_long_sign&sc_ks_para=q%3DA%20performance%20evaluation%20of%20gradient%20field%20HOG%20descriptor%20for%20sketch%20based%20image%20retrieval%20%E2%98%86&sc_us=2918633580718865183&tn=SE_baiduxueshu_c1gjeupa&ie=utf-8) 2013
+
+- [3d sub-query expansion for improving sketch-based multi-view image retrieval](http://xueshu.baidu.com/s?wd=3d+subquery+expansion+for+improving+sketch-based+multi-view+image+retrieval&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Fine-grained+sketch-based+image+retrieval%3A+The+role+of+part-aware+attributes&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2)2013
+
+- [ReEnact: Sketch based choreographic design from archival dance footage](http://xueshu.baidu.com/s?wd=Sketch+based+choreographic+design+from+archival+dance+footage&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Image-to-image+translation+with+conditional+adversarial+networks&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2)2014
+
+- *[Interactive sketch-drive image syntheses](http://xueshu.baidu.com/s?wd=paperuri%3A%281481c44fdbcefa36c1a6acedcad6c604%29&filter=sc_long_sign&sc_ks_para=q%3DInteractive%20Sketch%E2%80%90Driven%20Image%20Synthesis&sc_us=11863810056934778276&tn=SE_baiduxueshu_c1gjeupa&ie=utf-8) 2015
+
+- [Sketch-based 3d shape retrieval using convolutional neural networks](http://xueshu.baidu.com/s?wd=Sketch-based+3d+shape+retrieval+using+convolutional+neural+networks&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Mindfinder%3A+image+search+by+interactive+sketching+and+tagging&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2015
+
+- [Fine-grained sketch-based image retrieval: The role of part-aware attributes](http://xueshu.baidu.com/s?wd=Fine-grained+sketch-based+image+retrieval%3A+The+role+of+part-aware+attributes&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Sketch+based+choreographic+design+from+archival+dance+footage&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2)2016
+
+- [Pixel-level domain transfer](http://xueshu.baidu.com/s?wd=paperuri%3A%28f0b66150c199e5597318a5f355823f23%29&filter=sc_long_sign&sc_ks_para=q%3DPixel-Level%20Domain%20Transfer&sc_us=13432833586852786798&tn=SE_baiduxueshu_c1gjeupa&ie=utf-8) 2016
+
+- [Sketch me that shoe](http://xueshu.baidu.com/s?wd=paperuri%3A%28a05ce16be82145600668c843ed9344e0%29&filter=sc_long_sign&sc_ks_para=q%3DSketch%20Me%20That%20Shoe&sc_us=&tn=SE_baiduxueshu_c1gjeupa&ie=utf-8) 2016
+
+- [Improved training of wasserstein gans](http://xueshu.baidu.com/s?wd=Improved+training+of+wasserstein+gans&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Photosketcher%3A+Interactive+sketch-based+image+synthesis&f=8&rsv_bp=1&rsv_sug2=0&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2017
+
+- [Image-to-image translation with conditional adversarial networks](http://xueshu.baidu.com/s?wd=Image-to-image+translation+with+conditional+adversarial+networks&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=A+bag-of-region+approach+to+sketch-based+image+retrieval&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2)2017
+
+- [Unsupervised image-to-image translation networks](http://xueshu.baidu.com/s?wd=Unsupervised+image-to-image+translation+networks&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=3d+subquery+expansion+for+improving+sketch-based+multi-view+image+retrieval&f=8&rsv_bp=1&rsv_sug2=0&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2017
+
+- [Scribbler: Controlling deep image synthesis with sketch and color](http://xueshu.baidu.com/s?wd=Scribbler%3A+Controlling+deep+image+synthesis+with+sketch+and+color&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Unsupervised+image-to-image+translation+networks&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2017
+
+- [Unpaired Image-to-Image Translation Using Cycle-Consistent Adversarial Networks]() 201
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
