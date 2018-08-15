@@ -40,7 +40,7 @@
 
 - [Multiple representation-based face sketch-photo synthesis](http://xueshu.baidu.com/s?wd=Multiple+representation-based+face+sketch-photo+synthesis&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=paperuri%3A%28ad3d031446de898e507c7c7de4cec572%29&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2016
 
-- [Attribute2image: Conditional image generation from visual attributes]() 2016
+- [Attribute2image: Conditional image generation from visual attributes](http://xueshu.baidu.com/s?wd=Attribute2image%3A+Conditional+image+generation+from+visual+attributes&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Multi-view+representation+based+face+sketch+synthesis&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2016
 
 - [Improved training of wasserstein gans](http://xueshu.baidu.com/s?wd=Improved+training+of+wasserstein+gans&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Photosketcher%3A+Interactive+sketch-based+image+synthesis&f=8&rsv_bp=1&rsv_sug2=0&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2017
 
