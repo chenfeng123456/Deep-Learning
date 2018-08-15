@@ -1,4 +1,6 @@
-1. [Sketch2photo: Internet image montage](http://orca.cf.ac.uk/45692/1/a124-chen.pdf) 2009
+1. [Illumination tolerant face recognition using a novel face from sketch synthesis approch and advanced correlation filters](http://xueshu.baidu.com/s?wd=paperuri%3A%28ad3d031446de898e507c7c7de4cec572%29&filter=sc_long_sign&sc_ks_para=q%3DIllumination%20Tolerant%20Face%20Recognition%20Using%20a%20Novel%20Face%20From%20Sketch%20Synthesis%20Approach%20and%20Advanced%20Correlation%20Filters&sc_us=5368160525585343042&tn=SE_baiduxueshu_c1gjeupa&ie=utf-8) 2006
+
+2. [Sketch2photo: Internet image montage](http://orca.cf.ac.uk/45692/1/a124-chen.pdf) 2009
 
 - [Mindfinder: interactive sketch-based image search on millions of images](http://xueshu.baidu.com/s?wd=Mindfinder%3A+interactive+sketch-based+image+search+on+millions+of+images&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Edgel+index+for+large-scale+sketch+based+image+search&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2010
 
@@ -22,6 +24,8 @@
 
 - [ReEnact: Sketch based choreographic design from archival dance footage](http://xueshu.baidu.com/s?wd=Sketch+based+choreographic+design+from+archival+dance+footage&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Image-to-image+translation+with+conditional+adversarial+networks&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2)2014
 
+- [Multi-view representation based face sketch synthesis](http://xueshu.baidu.com/s?wd=Multi-view+representation+based+face+sketch+synthesis&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Multiple+representation-based+face+sketch-photo+synthesis&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2014
+
 - *[Interactive sketch-drive image syntheses](http://xueshu.baidu.com/s?wd=paperuri%3A%281481c44fdbcefa36c1a6acedcad6c604%29&filter=sc_long_sign&sc_ks_para=q%3DInteractive%20Sketch%E2%80%90Driven%20Image%20Synthesis&sc_us=11863810056934778276&tn=SE_baiduxueshu_c1gjeupa&ie=utf-8) 2015
 
 - [Sketch-based 3d shape retrieval using convolutional neural networks](http://xueshu.baidu.com/s?wd=Sketch-based+3d+shape+retrieval+using+convolutional+neural+networks&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Mindfinder%3A+image+search+by+interactive+sketching+and+tagging&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2015
@@ -32,6 +36,12 @@
 
 - [Sketch me that shoe](http://xueshu.baidu.com/s?wd=paperuri%3A%28a05ce16be82145600668c843ed9344e0%29&filter=sc_long_sign&sc_ks_para=q%3DSketch%20Me%20That%20Shoe&sc_us=&tn=SE_baiduxueshu_c1gjeupa&ie=utf-8) 2016
 
+- [Convolutional sketch inversion](http://xueshu.baidu.com/s?wd=paperuri%3A%28ae69763dafd2367123e73d8aebf5626a%29&filter=sc_long_sign&sc_ks_para=q%3DConvolutional%20Sketch%20Inversion&sc_us=10939853274832756280&tn=SE_baiduxueshu_c1gjeupa&ie=utf-8) 2016
+
+- [Multiple representation-based face sketch-photo synthesis](http://xueshu.baidu.com/s?wd=Multiple+representation-based+face+sketch-photo+synthesis&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=paperuri%3A%28ad3d031446de898e507c7c7de4cec572%29&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2016
+
+- [Attribute2image: Conditional image generation from visual attributes]() 2016
+
 - [Improved training of wasserstein gans](http://xueshu.baidu.com/s?wd=Improved+training+of+wasserstein+gans&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Photosketcher%3A+Interactive+sketch-based+image+synthesis&f=8&rsv_bp=1&rsv_sug2=0&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2017
 
 - [Image-to-image translation with conditional adversarial networks](http://xueshu.baidu.com/s?wd=Image-to-image+translation+with+conditional+adversarial+networks&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=A+bag-of-region+approach+to+sketch-based+image+retrieval&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2)2017
@@ -40,9 +50,9 @@
 
 - [Scribbler: Controlling deep image synthesis with sketch and color](http://xueshu.baidu.com/s?wd=Scribbler%3A+Controlling+deep+image+synthesis+with+sketch+and+color&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=Unsupervised+image-to-image+translation+networks&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2017
 
-- [Unpaired Image-to-Image Translation Using Cycle-Consistent Adversarial Networks]() 201
+- [Unpaired Image-to-Image Translation Using Cycle-Consistent Adversarial Networks](http://xueshu.baidu.com/s?wd=Unpaired+Image-to-Image+Translation+Using+Cycle-Consistent+Adversarial+Networks&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=paperuri%3A%28a05ce16be82145600668c843ed9344e0%29&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2017
 
-
+- [Attribute-controlled face photo synthesis from simple line drawing](http://xueshu.baidu.com/s?wd=Attribute-controlled+face+photo+synthesis+from+simple+line+drawing&tn=SE_baiduxueshu_c1gjeupa&cl=3&ie=utf-8&bs=paperuri%3A%28ae69763dafd2367123e73d8aebf5626a%29&f=8&rsv_bp=1&rsv_sug2=1&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D&rsv_n=2) 2017
 
 
 
