@@ -1,0 +1,93 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: summary.aux
+The style file: plain.bst
+Database file #1: ref.bib.bib
+Repeated entry---line 76 of file ref.bib.bib
+ : @inproceedings{Cao2010MindFinder
+ :                                 ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 170 of file ref.bib.bib
+ :   
+ :   year={2018}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 173 of file ref.bib.bib
+ : @inproceedings{Kazemi2018Facial
+ :                                ,
+I'm skipping whatever remains of this entry
+Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, Bryan Catanzaro, NVIDIA Corporation, UC Berkeley" for entry pix2pixHD
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, Bryan Catanzaro, NVIDIA Corporation, UC Berkeley" for entry pix2pixHD
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, Bryan Catanzaro, NVIDIA Corporation, UC Berkeley" for entry pix2pixHD
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, Bryan Catanzaro, NVIDIA Corporation, UC Berkeley" for entry pix2pixHD
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, Bryan Catanzaro, NVIDIA Corporation, UC Berkeley" for entry pix2pixHD
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "H Kazemi, M Iranmanesh, A Dabouei, S Soleymani, NM Nasrabadi" for entry Kazemi2018Facial
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "H Kazemi, M Iranmanesh, A Dabouei, S Soleymani, NM Nasrabadi" for entry Kazemi2018Facial
+while executing---line 1049 of file plain.bst
+Warning--empty journal in Chen2018SketchyGAN
+Warning--empty journal in Chen2016InfoGAN
+Too many commas in name 1 of "H Kazemi, M Iranmanesh, A Dabouei, S Soleymani, NM Nasrabadi" for entry Kazemi2018Facial
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "H Kazemi, M Iranmanesh, A Dabouei, S Soleymani, NM Nasrabadi" for entry Kazemi2018Facial
+while executing---line 1090 of file plain.bst
+Warning--empty year in Kazemi2018Facial
+Warning--empty journal in Lin20143D
+Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, Bryan Catanzaro, NVIDIA Corporation, UC Berkeley" for entry pix2pixHD
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, Bryan Catanzaro, NVIDIA Corporation, UC Berkeley" for entry pix2pixHD
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, Bryan Catanzaro, NVIDIA Corporation, UC Berkeley" for entry pix2pixHD
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, Bryan Catanzaro, NVIDIA Corporation, UC Berkeley" for entry pix2pixHD
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, Bryan Catanzaro, NVIDIA Corporation, UC Berkeley" for entry pix2pixHD
+while executing---line 1090 of file plain.bst
+Warning--empty journal in Zhu2017Unpaired
+You've used 17 entries,
+            2118 wiz_defined-function locations,
+            600 strings with 7360 characters,
+and the built_in function-call counts, 7441 in all, are:
+= -- 714
+> -- 359
+< -- 10
++ -- 144
+- -- 124
+* -- 488
+:= -- 1135
+add.period$ -- 51
+call.type$ -- 17
+change.case$ -- 113
+chr.to.int$ -- 0
+cite$ -- 22
+duplicate$ -- 315
+empty$ -- 562
+format.name$ -- 124
+if$ -- 1644
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 17
+newline$ -- 88
+num.names$ -- 34
+pop$ -- 142
+preamble$ -- 1
+purify$ -- 96
+quote$ -- 0
+skip$ -- 275
+stack$ -- 0
+substring$ -- 482
+swap$ -- 129
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 68
+warning$ -- 5
+while$ -- 56
+width$ -- 19
+write$ -- 180
+(There were 17 error messages)

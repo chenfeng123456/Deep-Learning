@@ -1,0 +1,9 @@
+\BOOKMARK [1][-]{section.1}{History and Significance}{}% 1
+\BOOKMARK [1][-]{section.2}{Mainstream Method}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Generative Adversarial Nets\(GAN\)}{section.2}% 3
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Generative Adversarial Nets}{subsection.2.1}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.2}{cGAN and InfoGAN}{subsection.2.1}% 5
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Pix2pix and Pix2pixHD}{subsection.2.1}% 6
+\BOOKMARK [3][-]{subsubsection.2.1.4}{CycleGAN}{subsection.2.1}% 7
+\BOOKMARK [3][-]{subsubsection.2.1.5}{Rescent Work}{subsection.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.2}{Deep Convolutional Neural Networks\(DNNs\)}{section.2}% 9
