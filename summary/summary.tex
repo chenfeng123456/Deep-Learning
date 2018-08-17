@@ -16,6 +16,9 @@ linkcolor=blue
 }
 
 
+%字体颜色
+\usepackage{xcolor}
+
 
 %添加首行缩进
 \usepackage{indentfirst}
@@ -32,7 +35,7 @@ linkcolor=blue
 \maketitle
 
 \section{History and Significance}
-
+ 
 \indent Synthesizing realistic photo from sketches drawn by human has been a challenging and hot problem for a long time. The research of this technique can be traced back to 2009\cite{Chen2009Sketch2Photo}. However, the technique of image generation and image-to-image transfer did not rise up until 2014, when the Generative Adversarial Nets(GAN)\cite{Goodfellow2014Generative} was proposed. Since then, variety of methods have been proposed to generate a more realistic photo for its broad application prospect. For example, police can use it to catch suspects through synthesised photos based on the drawn sketches, which requires that our photo should be as accurate as possible. As for the entertainment industry, we may need the model is able to generate images of multiple style, which is also a popular but difficult task.
 
 \section{Mainstream Method}
@@ -54,33 +57,40 @@ linkcolor=blue
 \subsubsection{CycleGAN}
 \indent Inspired by NLP, Jun-Yan Zhu and Taesung Park et al. came up with a new model named CycleGan \cite{Zhu2017Unpaired}. Although it has some drawbacks such as the high computing cost, CycleGAN still works very well for many problems. So I think I can apply it to my project.
 
-\subsubsection{Rescent Work}
+\subsubsection{\underline{\textbf{\emph{Rescent Work}}}}
 \indent Here I would show you some rescent work of sketch-photo in 2017 and 2018.
 \begin{itemize}
-\item SketchyGAN: Towards Diverse and Realistic Sketch to Image Synthesis\cite{Chen2018SketchyGAN}: \par
+\item \textbf{SketchyGAN: Towards Diverse and Realistic Sketch to Image Synthesis\cite{Chen2018SketchyGAN}}: \par
 A new network structure proposed for generative task. It works better than retrieval model but the result is still blurry and low-resolution. Moreover, it is too faithful to the badly drawn pictures to keep the realism.
 
-\item Facial Attributes Guided Deep Sketch-to-Photo Synthesis\cite{Kazemi2018Facial}: \par
+\item \textbf{Facial Attributes Guided Deep Sketch-to-Photo Synthesis\cite{Kazemi2018Facial}}: \par
 This paper puts forward a method that add an auxiliary attribute discriminator to find the false attributes in the output of the generator. However, editing an attribute can cause unwanted structural edition of the image in some area, which is also the weakness of the previous models.
 
-\item TextureGAN: Controlling Deep Image Synthesis with Texture Patches \cite{Xian2017TextureGAN} \par
+\item \textbf{TextureGAN: Controlling Deep Image Synthesis with Texture Patches \cite{Xian2017TextureGAN}}: \par
+Just as its name implies, TextureGAN adds a texture patch on a sketch at arbitrary locations and scales, which allows it to synthesize high-quality photos. And its novel losses for training deep image synthesis can encourage the generative network to handle new textures never seen on existing objects.
 
-
-
-
-
-
-\item Scribbler: Controlling Deep Image Synthesis with Sketch and Color\cite{Sangkloy2016Scribbler} \par
+\item \textbf{Scribbler: Controlling Deep Image Synthesis with Sketch and Color\cite{Sangkloy2016Scribbler}}: \par
 In this research, Pastsorn Sangkloy et al. use sketched with sparse color "scribbles" descided by human to generate a higher resolution and more diverse images. However, if users specifies uncommon or even wrong colors and shapes, this model would deem them correct. In addition, sometimes the boundaries between object parts or regions of defferent colors are likely to become vague.
-
-
-
-
 \end{itemize}
 
 
 \subsection{Deep Convolutional Neural Networks($DNNs$)}
 \indent Although GANs has been a remarkable success in image generation field, deep convolutional neural network is still also an effective tool.  
+
+
+\section{\textbf{\underline{\emph{Focus Questions}}}}
+\begin{enumerate}
+\item \textbf{Lack of sketches, especially the paired images and sketches;}
+
+\item \textbf{Uncontrollable results}
+
+\item \textbf{Low-resolution}
+
+\item \textbf{Badly drawn pictures}
+
+\item \textbf{\textcolor{cyan}{Models can't fit the objects that don't appear during the training procedure}} 
+\end{enumerate}
+
 
 %\begin{thebibliography}{}
 %\addtolength{\itemsep}{-1.5ex}
