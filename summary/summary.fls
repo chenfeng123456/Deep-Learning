@@ -82,6 +82,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT summary.bbl
 INPUT summary.bbl
 INPUT summary.brf
@@ -89,7 +90,6 @@ INPUT summary.brf
 INPUT ./summary.brf
 INPUT ./summary.brf
 OUTPUT summary.brf
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT summary.aux
 INPUT ./summary.out

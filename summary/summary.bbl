@@ -85,6 +85,11 @@ Mehdi Mirza and Simon Osindero.
 \newblock Conditional generative adversarial nets.
 \newblock {\em Computer Science}, pages 2672--2680, 2014.
 
+\bibitem{Sangkloy2016Scribbler}
+Patsorn Sangkloy, Jingwan Lu, Chen Fang, Fisher Yu, and James Hays.
+\newblock Scribbler: Controlling deep image synthesis with sketch and color.
+\newblock pages 6836--6845, 2016.
+
 \bibitem{pix2pixHD}
 Jun-Yan Zhu Andrew Tao Jan Kautz Bryan Catanzaro NVIDIA Corporation UC~Berkeley
   Ting-Chun~Wang, Ming-Yu~Liu.
@@ -97,6 +102,12 @@ Changhu Wang, Zhiwei Li, and Lei Zhang.
 \newblock Mindfinder:image search by interactive sketching and tagging.
 \newblock In {\em International Conference on World Wide Web}, pages
   1309--1312, 2010.
+
+\bibitem{Xian2017TextureGAN}
+Wenqi Xian, Patsorn Sangkloy, Varun Agrawal, Amit Raj, Jingwan Lu, Chen Fang,
+  Fisher Yu, and James Hays.
+\newblock Texturegan: Controlling deep image synthesis with texture patches.
+\newblock 2017.
 
 \bibitem{Zhu2017Unpaired}
 Jun~Yan Zhu, Taesung Park, Phillip Isola, and Alexei~A Efros.

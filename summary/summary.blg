@@ -38,6 +38,7 @@ Too many commas in name 1 of "H Kazemi, M Iranmanesh, A Dabouei, S Soleymani, NM
 while executing---line 1090 of file plain.bst
 Warning--empty year in Kazemi2018Facial
 Warning--empty journal in Lin20143D
+Warning--empty journal in Sangkloy2016Scribbler
 Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, Bryan Catanzaro, NVIDIA Corporation, UC Berkeley" for entry pix2pixHD
 while executing---line 1090 of file plain.bst
 Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, Bryan Catanzaro, NVIDIA Corporation, UC Berkeley" for entry pix2pixHD
@@ -48,46 +49,47 @@ Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew T
 while executing---line 1090 of file plain.bst
 Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, Bryan Catanzaro, NVIDIA Corporation, UC Berkeley" for entry pix2pixHD
 while executing---line 1090 of file plain.bst
+Warning--empty journal in Xian2017TextureGAN
 Warning--empty journal in Zhu2017Unpaired
-You've used 17 entries,
+You've used 19 entries,
             2118 wiz_defined-function locations,
-            600 strings with 7360 characters,
-and the built_in function-call counts, 7441 in all, are:
-= -- 714
-> -- 359
-< -- 10
-+ -- 144
-- -- 124
-* -- 488
-:= -- 1135
-add.period$ -- 51
-call.type$ -- 17
-change.case$ -- 113
+            609 strings with 7784 characters,
+and the built_in function-call counts, 8410 in all, are:
+= -- 802
+> -- 430
+< -- 11
++ -- 172
+- -- 150
+* -- 562
+:= -- 1295
+add.period$ -- 57
+call.type$ -- 19
+change.case$ -- 132
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 315
-empty$ -- 562
-format.name$ -- 124
-if$ -- 1644
+cite$ -- 26
+duplicate$ -- 347
+empty$ -- 614
+format.name$ -- 150
+if$ -- 1842
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 17
-newline$ -- 88
-num.names$ -- 34
-pop$ -- 142
+int.to.str$ -- 19
+missing$ -- 19
+newline$ -- 98
+num.names$ -- 38
+pop$ -- 165
 preamble$ -- 1
-purify$ -- 96
+purify$ -- 113
 quote$ -- 0
-skip$ -- 275
+skip$ -- 304
 stack$ -- 0
-substring$ -- 482
-swap$ -- 129
-text.length$ -- 10
+substring$ -- 528
+swap$ -- 140
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 68
-warning$ -- 5
-while$ -- 56
-width$ -- 19
-write$ -- 180
+type$ -- 76
+warning$ -- 7
+while$ -- 62
+width$ -- 21
+write$ -- 199
 (There were 17 error messages)
