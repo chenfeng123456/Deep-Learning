@@ -36,10 +36,10 @@ linkcolor=blue
 
 \section{History and Significance}
  
-\indent Synthesizing realistic photo from sketches drawn by human has been a challenging and hot problem for a long time. The research of this technique can be traced back to 2009\cite{Chen2009Sketch2Photo}. However, the technique of image generation and image-to-image transfer did not rise up until 2014, when the Generative Adversarial Nets(GAN)\cite{Goodfellow2014Generative} was proposed. Since then, variety of methods have been proposed to generate a more realistic photo for its broad application prospect. For example, police can use it to catch suspects through synthesised photos based on the drawn sketches, which requires that our photo should be as accurate as possible. As for the entertainment industry, we may need the model is able to generate images of multiple style, which is also a popular but difficult task.
+\indent Synthesizing realistic photo from sketches drawn by human has been a challenging and hot problem for a long time. The research of this technique can be traced back to 2009\cite{Chen2009Sketch2Photo}. However, the technique of image generation and image-to-image transfer did not rise up until 2014, when the Generative Adversarial Nets(GAN)\cite{Goodfellow2014Generative} was proposed. Since then, variety of methods have been proposed to generate a more realistic photo for its broad application prospect. For example, police can use it to catch suspects through synthesised photos based on the drawn sketches, which requires that our photo should be as accurate as possible. As for the entertainment industry, we may need the model be able to generate images of multiple style, which is also a popular but difficult task.
 
 \section{Mainstream Method}
-\indent I will introduce the main method of this project from 2015 to the present because the actual reasearch on sketch-photo synthesis did't qppear until 2014, which I think is largely due to the fact that GAN \cite{Goodfellow2014Generative} was present in 2014. Before it, sketches were mainly used to do retrieval work \cite{Cao2010MindFinder, Eitz2010An, Hu2010Gradient, Wang2010MindFinder, Cao2011Edgel, Hu2011A, Hu2013A, Lin20143D}.
+\indent I will introduce the main method of this project from 2014 to the present because the actual reasearch on sketch-photo synthesis did't qppear until 2014, which I think is largely due to the fact that GAN \cite{Goodfellow2014Generative} was present in 2014. Before it, sketches were mainly used to do retrieval work \cite{Cao2010MindFinder, Eitz2010An, Hu2010Gradient, Wang2010MindFinder, Cao2011Edgel, Hu2011A, Hu2013A, Lin20143D}.
 
 
 \subsection{Generative Adversarial Nets($GAN$)}
@@ -52,7 +52,7 @@ Generative Adversarial Nets and its thoughts from game theory is the most popula
 \indent The original GAN brought us a completely new idea. It is corresponding a minimax two-player game, which is simple and efficient. But it also has an obvious shortcoming that the constraint is too week so that we can't control what it will generate.
 
 \subsubsection{cGAN and InfoGAN}
-\indent Soon after the GAN's appearance, conditional GAN \cite{Mirza2014Conditional} was proposed, and then the InfoGAN \cite{Chen2016InfoGAN}. These two models are able to partly control the outputs by adding extra codes. However, the pictures they synthesize are still blurry and low-resolution.
+\indent Soon after the GAN's appearance, conditional GAN \cite{Mirza2014Conditional} was proposed, and then the InfoGAN \cite{Chen2016InfoGAN}. These two models are able to partly control the outputs by adding extra latent codes. However, the pictures they synthesize are still blurry and low-resolution.
 
 
 \subsubsection{Pix2pix and Pix2pixHD}
@@ -62,7 +62,7 @@ Generative Adversarial Nets and its thoughts from game theory is the most popula
 \indent Inspired by NLP, Jun-Yan Zhu and Taesung Park et al. came up with a new model named CycleGan \cite{Zhu2017Unpaired}. Although it has some drawbacks such as the high computing cost, CycleGAN still works very well for many problems. So I think I can apply it to my project.
 
 \subsubsection{\underline{\textbf{\emph{Rescent Work}}}}
-\indent Here I would show you some rescent work of sketch-photo in 2017 and 2018.
+\indent Here I would show you some rescent work of sketch-photo in 2016, 2017 and 2018.
 \begin{itemize}
 \item \textbf{SketchyGAN: Towards Diverse and Realistic Sketch to Image Synthesis\cite{Chen2018SketchyGAN}}: \par
 A new network structure proposed for generative task. It works better than retrieval model but the result is still blurry and low-resolution. Moreover, it is too faithful to the badly drawn pictures to keep the realism.
