@@ -163,6 +163,11 @@ I haven't found any solution from papers above. Maybe zero-shot learning can be 
 \end{enumerate}
 
 
+\section{Status and Future Direction}
+\indent Sketch-to-photo synthesis has reached a quite realistic level, but some intractable problems still exit, which I have refered in $Focus\ Problems\ and\ My\ Ideas$. To my surprise, image colorization has also reached an amazing effect, which gives me the inspiration that we can combine the colorization and generation to get better results.\par
+So this is my thoughts: we can select a model which can colorize the sketch, based on which we use the generative model to synthesize the realistic and high-resolution photo.
+But there is a final problem still remained: how can the model deal with the situation tha doesn't appear during the training procedure? I'll continue to  study in depth. 
+
 %\begin{thebibliography}{}
 %\addtolength{\itemsep}{-1.5ex}
 %\bibitem [1]{Sketch2photo} Sketch2Photo T.Cao

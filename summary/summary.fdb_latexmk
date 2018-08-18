@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex summary"] 1534599717 "summary.aux" "summary.bbl" "summary" 1534599846
+["bibtex summary"] 1534602073 "summary.aux" "summary.bbl" "summary" 1534602073
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "ref.bib" 1534599223 9999 34987acfb132761bf9a960d525b14403 ""
-  "summary.aux" 1534599717 5002 c8e41ba8f1446a64706f487e9fb1419a ""
+  "summary.aux" 1534602073 5102 24b19c625ce43ec2c475b1d6051f2287 ""
   "summary.bcf" 0 -1 0 ""
   (generated)
   "summary.bbl"
   "summary.blg"
-["pdflatex"] 1534599846 "summary.tex" "summary.pdf" "summary" 1534599846
+["pdflatex"] 1534602073 "summary.tex" "summary.pdf" "summary" 1534602073
   "/etc/texmf/web2c/texmf.cnf" 1533255998 1101 af7716885e081ab43982cab7b4672c1a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -27,6 +27,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb" 1248133631 36554 b67dc2cfa451409e100b3fcf5f506509 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
@@ -62,14 +63,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1533256018 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1533256049 3853875 f527fddbdfc6cc61f39c6fcd271c34f8 ""
-  "summary.aux" 1534599717 5002 c8e41ba8f1446a64706f487e9fb1419a ""
-  "summary.bbl" 1534599717 6087 6b5b20b99f05a8868928343613d332fa "bibtex summary"
-  "summary.brf" 1534599717 1218 16d30a5d1fdc6f471612b03c05773da5 ""
-  "summary.out" 1534599717 781 be1c1bfac163f77f517155ec4eabe2e0 ""
-  "summary.tex" 1534599846 10155 4668876c0a241a62edfd57b7623a158b ""
+  "summary.aux" 1534601433 5102 60744979dba14fb68a2342559e8989cc ""
+  "summary.bbl" 1534602072 6087 6b5b20b99f05a8868928343613d332fa "bibtex summary"
+  "summary.brf" 1534601433 1218 16d30a5d1fdc6f471612b03c05773da5 ""
+  "summary.out" 1534601433 844 b75d939729e93e838fff02946a83c301 ""
+  "summary.tex" 1534602072 10894 05df8d79d33cc4f013fadce595839bc0 ""
   (generated)
+  "summary.log"
   "summary.aux"
+  "summary.brf"
   "summary.out"
   "summary.pdf"
-  "summary.log"
-  "summary.brf"
