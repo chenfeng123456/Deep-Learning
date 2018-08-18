@@ -85,6 +85,13 @@ Rui Hu, Tinghuai Wang, and John Collomosse.
 \newblock In {\em IEEE International Conference on Image Processing}, pages
   3661--3664, 2011.
 
+\bibitem{Iizuka2016Let}
+Satoshi Iizuka, Edgar Simoserra, and Hiroshi Ishikawa.
+\newblock Let there be color!: joint end-to-end learning of global and local
+  image priors for automatic image colorization with simultaneous
+  classification.
+\newblock {\em Acm Transactions on Graphics}, 35(4):1--11, 2016.
+
 \bibitem{Isola2017Image}
 Phillip Isola, Jun~Yan Zhu, Tinghui Zhou, and Alexei~A. Efros.
 \newblock Image-to-image translation with conditional adversarial networks.
@@ -136,6 +143,12 @@ Wenqi Xian, Patsorn Sangkloy, Varun Agrawal, Amit Raj, Jingwan Lu, Chen Fang,
   Fisher Yu, and James Hays.
 \newblock Texturegan: Controlling deep image synthesis with texture patches.
 \newblock 2017.
+
+\bibitem{Zhang2016Colorful}
+Richard Zhang, Phillip Isola, and Alexei~A. Efros.
+\newblock Colorful image colorization.
+\newblock {\em European Conference on Computer Vision(ECCV)}, pages 649--666,
+  2016.
 
 \bibitem{Zhu2017Unpaired}
 Jun~Yan Zhu, Taesung Park, Phillip Isola, and Alexei~A Efros.

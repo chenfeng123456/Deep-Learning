@@ -94,14 +94,15 @@ This is the paper I appreciate most for it proposed a creative idea that we can 
 Unlike GANs, this model can synthesize realistic photos from sketches without extra constraint. But the output is still low-resolution.
 
 \item \textbf{Attribute-controlled face photo synthesis from simple line drawing\cite{Guo2017Attribute}}:\par
-
+This model can generate photo with desired attribute even  though
+the simple line drawing is not complete. However, the style is random and a style photo is needed if we want to control the style of synthsized photo.
 
 
 \end{itemize}
 
 
 \section{Other Related Work}
-\indent Apart from the above work that relate to sketch-photo synthesis directly, there are much more researches which are associated with the project.
+\indent Apart from the above work that relate to sketch-photo synthesis directly, there are some other researches which are associated with the project.
 
 
 
@@ -117,6 +118,14 @@ time&title&contribution&limitation\\
 fine-grained SBIR datasets with extensive ground truth annotations & \\
 
 \hline
+2016&Colorful Image Colorization\cite{Zhang2016Colorful}&Introduce a novel framework for testing colorization algorithms, potentially applicable to other image synthesis tasks.& \\
+
+\hline
+2016&Let there be color!: joint end-to-end learning of global and local image priors for automatic image colorization with simultaneous classification\cite{Iizuka2016Let}&The proposed architecture can process images of any resolution.&The main limitation lies in the fact that it is data-driven and thus will only be able to colorize images that share common properties with those in the training set. The model will use the color it have learned while training despite outher colors may also be suitable. \\
+
+
+
+\hline
 2017&Real-Time User-Guided Image Colorization with Learned Deep Priors\cite{Efros2017Real}&It can colorize an image well with limitated time. And it can even generate unusual colorizations despite being trained on natural images.& It can be over-optimistic and produce undesired non-local effects\\
 
 \hline
@@ -126,7 +135,7 @@ fine-grained SBIR datasets with extensive ground truth annotations & \\
 \end{table}
 
 
-\section{\textbf{\underline{\emph{Focus Problems and Some Ideas}}}}
+\section{\textbf{\underline{\emph{Focus Problems and My Ideas}}}}
 
 \indent While reading papers, I found the main controversies constrate on the flollowing aspects:
 
@@ -148,7 +157,9 @@ We can pose the image generation problem as an image completion problem by using
 
 
 
-\item \textbf{\textcolor{cyan}{Models can't fit the objects that don't appear during the training procedure}} 
+\item \textbf{\textcolor{cyan}{Models can't fit the objects that don't appear during the training procedure}} \par
+I haven't found any solution from papers above. Maybe zero-shot learning can be helpful.
+
 \end{enumerate}
 
 

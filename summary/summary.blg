@@ -70,45 +70,45 @@ Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew T
 while executing---line 1090 of file plain.bst
 Warning--empty journal in Xian2017TextureGAN
 Warning--empty journal in Zhu2017Unpaired
-You've used 24 entries,
+You've used 26 entries,
             2118 wiz_defined-function locations,
-            636 strings with 8700 characters,
-and the built_in function-call counts, 10277 in all, are:
-= -- 974
-> -- 549
-< -- 12
-+ -- 219
-- -- 192
-* -- 701
-:= -- 1615
-add.period$ -- 72
-call.type$ -- 24
-change.case$ -- 168
+            648 strings with 9101 characters,
+and the built_in function-call counts, 11049 in all, are:
+= -- 1051
+> -- 585
+< -- 13
++ -- 233
+- -- 204
+* -- 755
+:= -- 1738
+add.period$ -- 78
+call.type$ -- 26
+change.case$ -- 180
 chr.to.int$ -- 0
-cite$ -- 34
-duplicate$ -- 411
-empty$ -- 732
-format.name$ -- 192
-if$ -- 2220
+cite$ -- 36
+duplicate$ -- 442
+empty$ -- 788
+format.name$ -- 204
+if$ -- 2389
 int.to.chr$ -- 0
-int.to.str$ -- 24
-missing$ -- 24
-newline$ -- 123
-num.names$ -- 48
-pop$ -- 203
+int.to.str$ -- 26
+missing$ -- 26
+newline$ -- 133
+num.names$ -- 52
+pop$ -- 213
 preamble$ -- 1
-purify$ -- 144
+purify$ -- 154
 quote$ -- 0
-skip$ -- 354
+skip$ -- 380
 stack$ -- 0
-substring$ -- 619
-swap$ -- 153
-text.length$ -- 12
+substring$ -- 669
+swap$ -- 164
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 96
+type$ -- 104
 warning$ -- 10
-while$ -- 76
-width$ -- 26
-write$ -- 249
+while$ -- 83
+width$ -- 28
+write$ -- 271
 (There were 24 error messages)

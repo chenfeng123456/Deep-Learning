@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex summary"] 1534594141 "summary.aux" "summary.bbl" "summary" 1534594870
+["bibtex summary"] 1534599717 "summary.aux" "summary.bbl" "summary" 1534599846
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "ref.bib" 1534591182 8747 3b948d11a0da577ef101c7161aed3283 ""
-  "summary.aux" 1534594141 4762 e813562541ca9b296c4761e4917c7d2f ""
+  "ref.bib" 1534599223 9999 34987acfb132761bf9a960d525b14403 ""
+  "summary.aux" 1534599717 5002 c8e41ba8f1446a64706f487e9fb1419a ""
   "summary.bcf" 0 -1 0 ""
   (generated)
   "summary.bbl"
   "summary.blg"
-["pdflatex"] 1534594870 "summary.tex" "summary.pdf" "summary" 1534594870
+["pdflatex"] 1534599846 "summary.tex" "summary.pdf" "summary" 1534599846
   "/etc/texmf/web2c/texmf.cnf" 1533255998 1101 af7716885e081ab43982cab7b4672c1a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -62,14 +62,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1533256018 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1533256049 3853875 f527fddbdfc6cc61f39c6fcd271c34f8 ""
-  "summary.aux" 1534594141 4762 e813562541ca9b296c4761e4917c7d2f ""
-  "summary.bbl" 1534594141 5576 bbd7c049d0b5d6aa0734d1da9516b77e "bibtex summary"
-  "summary.brf" 1534594141 1124 dffb129908cb15c7a0cb0cafe99009a2 ""
-  "summary.out" 1534594141 783 28128883ca1d896f78174c34bc943371 ""
-  "summary.tex" 1534594870 9138 2f8aea749035d59f0da8abd1d48d7e4f ""
+  "summary.aux" 1534599717 5002 c8e41ba8f1446a64706f487e9fb1419a ""
+  "summary.bbl" 1534599717 6087 6b5b20b99f05a8868928343613d332fa "bibtex summary"
+  "summary.brf" 1534599717 1218 16d30a5d1fdc6f471612b03c05773da5 ""
+  "summary.out" 1534599717 781 be1c1bfac163f77f517155ec4eabe2e0 ""
+  "summary.tex" 1534599846 10155 4668876c0a241a62edfd57b7623a158b ""
   (generated)
+  "summary.aux"
+  "summary.out"
   "summary.pdf"
   "summary.log"
   "summary.brf"
-  "summary.out"
-  "summary.aux"
