@@ -43,6 +43,10 @@ linkcolor=blue
 
 
 \subsection{Generative Adversarial Nets($GAN$)}
+Generative Adversarial Nets and its thoughts from game theory is the most popular and useful method in image generation. Here, I would clarify the GANs' development and show some recent work which can reflect the use of GAN in our project.
+
+
+
 
 \subsubsection{Generative Adversarial Nets}
 \indent The original GAN brought us a completely new idea. It is corresponding a minimax two-player game, which is simple and efficient. But it also has an obvious shortcoming that the constraint is too week so that we can't control what it will generate.
@@ -71,22 +75,78 @@ Just as its name implies, TextureGAN adds a texture patch on a sketch at arbitra
 
 \item \textbf{Scribbler: Controlling Deep Image Synthesis with Sketch and Color\cite{Sangkloy2016Scribbler}}: \par
 In this research, Pastsorn Sangkloy et al. use sketched with sparse color "scribbles" descided by human to generate a higher resolution and more diverse images. However, if users specifies uncommon or even wrong colors and shapes, this model would deem them correct. In addition, sometimes the boundaries between object parts or regions of defferent colors are likely to become vague.
+
+
+\item \textbf{Image Generation from Sketch Constraint Using Contextual GAN\cite{Lu2017Image}}: \par
+This is the paper I appreciate most for it proposed a creative idea that we can see the generation of image based on sketches as a inpainting process so that the model can avoid being too strictly corresponding to the input paintings. 
+
+
 \end{itemize}
 
 
 \subsection{Deep Convolutional Neural Networks($DNNs$)}
-\indent Although GANs has been a remarkable success in image generation field, deep convolutional neural network is still also an effective tool.  
+\indent Although GANs has been a remarkable success in image generation field, deep convolutional neural network is still also an effective tool. However, the use of this method is obviously less than GANs because it is difficult for a user to control what the network produce, which limits the application in image generation field.
 
 
-\section{\textbf{\underline{\emph{Focus Questions}}}}
+
+\begin{itemize}
+\item \textbf{Convolutional Sketch Inversion \cite{G2016Convolutional}}: \par
+Unlike GANs, this model can synthesize realistic photos from sketches without extra constraint. But the output is still low-resolution.
+
+\item \textbf{Attribute-controlled face photo synthesis from simple line drawing\cite{Guo2017Attribute}}:\par
+
+
+
+\end{itemize}
+
+
+\section{Other Related Work}
+\indent Apart from the above work that relate to sketch-photo synthesis directly, there are much more researches which are associated with the project.
+
+
+
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|p{1cm}|p{4.5cm}|p{5.5cm}|p{5.5cm}|}
+\hline
+time&title&contribution&limitation\\
+
+\hline
+2016&Sketch me that shoe\cite{Q_Yu2016Sketch}&Solve the problem of fine-grained instance-level SBIR using free-hand sketches and contribute two new
+fine-grained SBIR datasets with extensive ground truth annotations & \\
+
+\hline
+2017&Real-Time User-Guided Image Colorization with Learned Deep Priors\cite{Efros2017Real}&It can colorize an image well with limitated time. And it can even generate unusual colorizations despite being trained on natural images.& It can be over-optimistic and produce undesired non-local effects\\
+
+\hline
+
+
+\end{tabular}
+\end{table}
+
+
+\section{\textbf{\underline{\emph{Focus Problems and Some Ideas}}}}
+
+\indent While reading papers, I found the main controversies constrate on the flollowing aspects:
+
 \begin{enumerate}
-\item \textbf{Lack of sketches, especially the paired images and sketches;}
+\item \textbf{Lack of sketches, especially the paired images and sketches}\par
+We can use CycleGAN to avoid this problem because CycleGAN doesn't need paired images.
 
-\item \textbf{Uncontrollable results}
 
-\item \textbf{Low-resolution}
+\item \textbf{Uncontrollable results}\par
+It seems difficult for models to learn the latent information that controls the results directly, so the main idea of solving this problem is that use extra restricts, such as colors and textures, to specify what we want to get from the sketch, which requires the restricts given by people must be real and correct. 
 
-\item \textbf{Badly drawn pictures}
+
+\item \textbf{Low-resolution}\par
+Just like the previous problems, adding constraints makes it easier for us to improve the resolution. Experiments have shown that using sketches with color specified can synthsize more realistic and higher resolution photos, so I suspect that we can apply another model which is used to colorize the picture first, and then use the colorized sketch to synthesize the photo.
+
+\item \textbf{Badly drawn pictures}\par
+We can pose the image generation problem as an image completion problem by using sketch as a weak constextual constraint. By doing so, the generated image may exhibit different poses and shapes beyond the input sketches which may not strictly corresponding to photographic objects.
+
+
+
 
 \item \textbf{\textcolor{cyan}{Models can't fit the objects that don't appear during the training procedure}} 
 \end{enumerate}

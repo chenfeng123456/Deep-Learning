@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.8.2)  17 AUG 2018 10:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.8.2)  18 AUG 2018 08:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -293,77 +293,92 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 45.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 60.
+(Font)              <7> on input line 64.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 60.
+(Font)              <5> on input line 64.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 60.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@@underline' on input line 60.
+(hyperref)                removing `math shift' on input line 64.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 60.
+(hyperref)                removing `\@@underline' on input line 64.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 60.
+(hyperref)                removing `\hbox' on input line 64.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 60.
+(hyperref)                removing `\mathsurround' on input line 64.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 60.
+(hyperref)                removing `\z@' on input line 64.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 63.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 64.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 77.
+(hyperref)                removing `math shift' on input line 87.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 77.
+(hyperref)                removing `math shift' on input line 87.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]\OT1/cmr/m/n/10 Real-Time User-Guided
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\OT1/cmr/m/n/10 Im-age Col-oriza-tion with
+ []
+
+
+Overfull \hbox (33.77356pt too wide) in paragraph at lines 111--126
+ [][] 
+ []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 81.
+(Font)              <14.4> on input line 129.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 81.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@@underline' on input line 81.
+(hyperref)                removing `math shift' on input line 129.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 81.
+(hyperref)                removing `\@@underline' on input line 129.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 81.
+(hyperref)                removing `\hbox' on input line 129.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 81.
+(hyperref)                removing `\mathsurround' on input line 129.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 81.
+(hyperref)                removing `\z@' on input line 129.
 
-(./summary.bbl (./summary.brf)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 129.
+
+[2] (./summary.bbl (./summary.brf)
 \tf@brf=\write4
 \openout4 = `summary.brf'.
 
@@ -371,7 +386,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ! Misplaced alignment tab character &.
 <argument> ...re lines. \newblock {\em Computers &
                                                    Graphics}, 34(5):482--498...
-l.38 
+l.44 
      
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -380,13 +395,29 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no Ÿ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no § in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no § in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no ˜ in font cmr10!
 Missing character: There is no † in font cmr10!
 ! Misplaced alignment tab character &.
 <argument> ...˜†. \newblock {\em Computer Vision &
                                                    Image Understanding Cviu}...
-l.64 
+l.81 
      
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -395,27 +426,27 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[2])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+[3])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
  (./summary.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
 Package rerunfilecheck Info: File `summary.out' has not changed.
-(rerunfilecheck)             Checksum: 427F21EDCFD8B4451B190934E36D55B0;715.
+(rerunfilecheck)             Checksum: 28128883CA1D896F78174C34BC943371;783.
 Package rerunfilecheck Info: File `summary.brf' has not changed.
-(rerunfilecheck)             Checksum: 5DA925171F272FF6FD18823CB046BFCA;864.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
+(rerunfilecheck)             Checksum: DFFB129908CB15C7A0CB0CAFE99009A2;1124.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  ) 
 Here is how much of TeX's memory you used:
- 6056 strings out of 493029
- 88642 string characters out of 6136235
- 186986 words of memory out of 5000000
- 9536 multiletter control sequences out of 15000+600000
+ 6084 strings out of 493029
+ 89123 string characters out of 6136235
+ 187173 words of memory out of 5000000
+ 9557 multiletter control sequences out of 15000+600000
  9574 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,6n,35p,872b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,10n,35p,872b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
@@ -425,10 +456,10 @@ ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb>
-Output written on summary.pdf (3 pages, 133187 bytes).
+Output written on summary.pdf (4 pages, 140253 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 

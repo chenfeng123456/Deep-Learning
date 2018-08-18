@@ -16,6 +16,10 @@ Repeated entry---line 173 of file ref.bib.bib
  : @inproceedings{Kazemi2018Facial
  :                                ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 240 of file ref.bib.bib
+ : @article{Guo2017Attribute
+ :                          ,
+I'm skipping whatever remains of this entry
 Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, Bryan Catanzaro, NVIDIA Corporation, UC Berkeley" for entry pix2pixHD
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, Bryan Catanzaro, NVIDIA Corporation, UC Berkeley" for entry pix2pixHD
@@ -29,15 +33,30 @@ while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "H Kazemi, M Iranmanesh, A Dabouei, S Soleymani, NM Nasrabadi" for entry Kazemi2018Facial
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "H Kazemi, M Iranmanesh, A Dabouei, S Soleymani, NM Nasrabadi" for entry Kazemi2018Facial
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Q. Yu, F. Liu, Y.-Z. Song, T. Xiang, T. M. Hospedales, C.-C. Loy" for entry Q_Yu2016Sketch
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Q. Yu, F. Liu, Y.-Z. Song, T. Xiang, T. M. Hospedales, C.-C. Loy" for entry Q_Yu2016Sketch
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Q. Yu, F. Liu, Y.-Z. Song, T. Xiang, T. M. Hospedales, C.-C. Loy" for entry Q_Yu2016Sketch
 while executing---line 1049 of file plain.bst
 Warning--empty journal in Chen2018SketchyGAN
 Warning--empty journal in Chen2016InfoGAN
+Warning--empty journal in Guo2017Attribute
+Warning--empty journal in G2016Convolutional
 Too many commas in name 1 of "H Kazemi, M Iranmanesh, A Dabouei, S Soleymani, NM Nasrabadi" for entry Kazemi2018Facial
 while executing---line 1090 of file plain.bst
 Too many commas in name 1 of "H Kazemi, M Iranmanesh, A Dabouei, S Soleymani, NM Nasrabadi" for entry Kazemi2018Facial
 while executing---line 1090 of file plain.bst
 Warning--empty year in Kazemi2018Facial
 Warning--empty journal in Lin20143D
+Warning--empty journal in Lu2017Image
+Too many commas in name 1 of "Q. Yu, F. Liu, Y.-Z. Song, T. Xiang, T. M. Hospedales, C.-C. Loy" for entry Q_Yu2016Sketch
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Q. Yu, F. Liu, Y.-Z. Song, T. Xiang, T. M. Hospedales, C.-C. Loy" for entry Q_Yu2016Sketch
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Q. Yu, F. Liu, Y.-Z. Song, T. Xiang, T. M. Hospedales, C.-C. Loy" for entry Q_Yu2016Sketch
+while executing---line 1090 of file plain.bst
 Warning--empty journal in Sangkloy2016Scribbler
 Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew Tao, Jan Kautz, Bryan Catanzaro, NVIDIA Corporation, UC Berkeley" for entry pix2pixHD
 while executing---line 1090 of file plain.bst
@@ -51,45 +70,45 @@ Too many commas in name 1 of "Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Andrew T
 while executing---line 1090 of file plain.bst
 Warning--empty journal in Xian2017TextureGAN
 Warning--empty journal in Zhu2017Unpaired
-You've used 19 entries,
+You've used 24 entries,
             2118 wiz_defined-function locations,
-            609 strings with 7784 characters,
-and the built_in function-call counts, 8410 in all, are:
-= -- 802
-> -- 430
-< -- 11
-+ -- 172
-- -- 150
-* -- 562
-:= -- 1295
-add.period$ -- 57
-call.type$ -- 19
-change.case$ -- 132
+            636 strings with 8700 characters,
+and the built_in function-call counts, 10277 in all, are:
+= -- 974
+> -- 549
+< -- 12
++ -- 219
+- -- 192
+* -- 701
+:= -- 1615
+add.period$ -- 72
+call.type$ -- 24
+change.case$ -- 168
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 347
-empty$ -- 614
-format.name$ -- 150
-if$ -- 1842
+cite$ -- 34
+duplicate$ -- 411
+empty$ -- 732
+format.name$ -- 192
+if$ -- 2220
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 19
-newline$ -- 98
-num.names$ -- 38
-pop$ -- 165
+int.to.str$ -- 24
+missing$ -- 24
+newline$ -- 123
+num.names$ -- 48
+pop$ -- 203
 preamble$ -- 1
-purify$ -- 113
+purify$ -- 144
 quote$ -- 0
-skip$ -- 304
+skip$ -- 354
 stack$ -- 0
-substring$ -- 528
-swap$ -- 140
-text.length$ -- 11
+substring$ -- 619
+swap$ -- 153
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 76
-warning$ -- 7
-while$ -- 62
-width$ -- 21
-write$ -- 199
-(There were 17 error messages)
+type$ -- 96
+warning$ -- 10
+while$ -- 76
+width$ -- 26
+write$ -- 249
+(There were 24 error messages)
