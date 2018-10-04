@@ -1,0 +1,174 @@
+\documentclass{article}
+\usepackage{multirow}
+\title{FID}
+\author{Guorui Lu}
+
+\begin{document}
+\maketitle
+
+
+\section{DRIT}
+
+\setlength{\tabcolsep}{7mm}{
+\begin{table}[!htbp]
+\centering
+\caption{DRIT}
+\begin{tabular}{|c|c|c|}
+\hline
+datasets&epoch&FID \\
+
+\hline
+\multirow{6}*{briman2husky drit 10}&00289&248.9405 \\
+\cline{2-3}
+~&00389&275.8875 \\
+
+\cline{2-3}
+~&00489&267.491 \\ 
+
+\cline{2-3}
+~&00589&273.049 \\
+
+\cline{2-3}
+~&00689&282.358 \\
+
+\cline{2-3}
+~&00789&299.257 \\
+\hline
+
+\multirow{6}*{briman2samoyed drit 10}&00289&271.123 \\
+
+\cline{2-3}
+~&00389&237.819 \\
+
+\cline{2-3}
+~&00489&311.650 \\
+
+\cline{2-3}
+~&00589&257.653 \\
+
+\cline{2-3}
+~&00689&227.3135 \\
+
+\cline{2-3}
+~&00789&251.234 \\
+\hline
+
+\multirow{6}*{cat2dog drit 10}&00289&248.318 \\
+
+\cline{2-3}
+~&00389&247.328 \\
+
+\cline{2-3}
+~&00489&300.622 \\
+
+\cline{2-3}
+~&00589&241.132 \\
+
+\cline{2-3}
+~&00689&270.6275 \\
+
+\cline{2-3}
+~&00789&251.454 \\
+\hline
+
+\multirow{6}*{cat2dog drit}&00289&249.053 \\
+
+\cline{2-3}
+~&00389&248.163 \\
+
+\cline{2-3}
+~&00489&251.541 \\
+
+\cline{2-3}
+~&00589&243.861 \\
+
+\cline{2-3}
+~&00689&241.548 \\
+
+\cline{2-3}
+~&00789&243.798 \\
+\hline
+
+
+\end{tabular}
+
+\end{table}}
+
+\section{MUNIT}
+
+\begin{table}[!htbp]
+\centering
+\caption{MUNIT}
+
+\begin{tabular}{|c|c|c|}
+
+\hline
+datasets&iteration&FID \\
+\hline
+
+\multirow{4}*{briman2husky drit 1}&00010000&262.470 \\
+
+\cline{2-3}
+~&00030000&245.603 \\
+
+\cline{2-3}
+~&00040000&242.572 \\
+
+\cline{2-3}
+~&00090000&312.076 \\
+\hline
+
+\multirow{6}*{briman2husky drit 5}&00010000&246.010 \\
+
+\cline{2-3}
+~&00020000&246.741 \\
+
+\cline{2-3}
+~&00030000&262.283 \\
+
+\cline{2-3}
+~&00040000&242.906 \\
+
+\cline{2-3}
+~&00050000&271.705 \\
+
+\cline{2-3}
+~&00060000&268.702 \\
+\hline
+
+\multirow{3}*{briman2samoyed drit 1}&00030000&211.709 \\
+
+\cline{2-3}
+~&00060000&222.979 \\
+
+\cline{2-3}
+~&00110000&240.2135 \\
+\hline 
+
+\multirow{6}*{briman2samoyed drit 5}&00010000&297.803 \\
+
+\cline{2-3}
+~&00020000&318.8755 \\
+
+\cline{2-3}
+~&00030000&317.662 \\
+
+\cline{2-3}
+~&00040000&314.492 \\
+
+\cline{2-3}
+~&00050000&331.160 \\
+
+\cline{2-3}
+~&00060000&317.614 \\
+\hline
+
+
+
+\end{tabular}
+
+
+\end{table}
+
+
+\end{document}
