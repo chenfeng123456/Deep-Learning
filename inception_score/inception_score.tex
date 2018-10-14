@@ -1,6 +1,6 @@
 \documentclass{article}
 \usepackage{multirow}
-\title{Inception score}
+\title{Inception Score}
 \author{Guorui Lu}
 
 \begin{document}
@@ -39,5 +39,38 @@
 \end{tabular}
 
 \end{table}
+
+
+\begin{table}[htbp]
+\centering
+\caption{MUNIT}
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+\multirow{2}*{datasets}&\multirow{2}*{iteration}&\multicolumn{2}{|c|}{inception score}  \\
+\cline{3-4}
+~&~&mean&std \\
+\hline
+
+\multirow{1}*{briman2husky drit 1}&00030000&1.0000100097896427&2.628058675504588e-06 \\
+\cline{1-4}
+
+
+\multirow{1}*{briman2husky drit 5}&00030000&1.00026829653472&0.00016756246634258361 \\
+\cline{1-4}
+
+\multirow{1}*{briman2samoyed drit 1}&00030000&1.000470567788196&0.000190270994816151 \\
+\cline{1-4}
+
+
+\multirow{1}*{briman2samoyed drit 5}&00030000&1.0635568749834432&0.011119034871932285 \\
+\cline{1-4}
+
+
+\end{tabular}
+
+\end{table}
+
+
 
 \end{document}
