@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage{multirow}
+\title{Inception score}
+\author{Guorui Lu}
+
+\begin{document}
+\maketitle
+
+\begin{table}
+\centering
+\caption{DRIT}
+
+\begin{tabular}{|c|c|c|c|}
+
+\hline
+\multirow{2}*{datasets}&\multirow{2}*{iteration}&\multicolumn{2}{|c|}{inception score}  \\
+\cline{3-4}
+~&~&mean&std \\
+\hline
+\multirow{1}*{briman2husky drit}&00589&1.0026473713073574&0.003935737739601079 \\
+\cline{1-4}
+
+\multirow{1}*{briman2husky drit 10}&00589&1.000328597268188&0.00016481549564312476 \\
+\cline{1-4}
+
+\multirow{1}*{briman2samoyed drit}&00589&1.044661982537597&0.014918587167619561 \\
+\cline{1-4}
+
+\multirow{1}*{briman2samoyed drit 10}&00589&1.0470765388639647&0.006653622275749304 \\
+\cline{1-4}
+
+
+\multirow{1}*{samoyed2husky drit}&00589&1.0023684353327986&0.0011075690012456454 \\
+\cline{1-4}
+
+\multirow{1}*{samoyed2husky drit 10}&00589&1.0005886683128498&0.00042432807657059824 \\
+\cline{1-4}
+
+\end{tabular}
+
+\end{table}
+
+\end{document}
