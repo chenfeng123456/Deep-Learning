@@ -1,5 +1,7 @@
 \documentclass{article}
 \usepackage{multirow}
+\usepackage{longtable,booktabs}
+\usepackage{supertabular}
 \title{FID}
 \author{Guorui Lu}
 
@@ -8,15 +10,25 @@
 
 
 
-\setlength{\tabcolsep}{7mm}{
-\begin{table}
-\centering
+
+\begin{longtable}{|c|c|c|}
 \caption{DRIT}
-\begin{tabular}{|c|c|c|}
+
+\\
 \hline
 datasets&epoch&FID \\
+\hline
+
+\endfirsthead
 
 \hline
+datasets&epoch&FID \\
+\hline
+\endhead
+\hline
+\endfoot
+
+
 \multirow{6}*{briman2husky drit}&00289&261.306 \\
 \cline{2-3}
 ~&00389&266.377 \\
@@ -28,8 +40,32 @@ datasets&epoch&FID \\
 ~&00689&243.154 \\
 \cline{2-3}
 ~&00789&249.725 \\
-\hline
 
+\hline
+\multirow{6}*{briman2husky drit 1}&00299&253.864 \\
+\cline{2-3}
+~&00399&253.170 \\
+\cline{2-3}
+~&00499&253.217 \\
+\cline{2-3}
+~&00599&251.120 \\
+\cline{2-3}
+~&00699&253.003 \\
+\cline{2-3}
+&00799&250.899 \\
+
+\hline
+\multirow{6}*{briman2husky drit 5}&00299&253.385 \\
+\cline{2-3}
+~&00399&249.383 \\
+\cline{2-3}
+~&00499&267.007 \\
+\cline{2-3}
+~&00599&278.440 \\
+\cline{2-3}
+~&00699&271.072 \\
+\cline{2-3}
+~&00799&282.924 \\
 
 \hline
 \multirow{6}*{briman2husky drit 10}&00289&248.9405 \\
@@ -62,6 +98,37 @@ datasets&epoch&FID \\
 ~&00789&261.0595 \\
 \hline
 
+\newpage
+
+\multirow{6}*{briman2samoyed drit 1}&00299&247.446 \\
+\cline{2-3}
+~&00399&249.391 \\
+\cline{2-3}
+~&00499&245.677 \\
+\cline{2-3}
+~&00599&246.374 \\
+\cline{2-3}
+~&00699&250.040 \\
+\cline{2-3}
+~&00799&246.635 \\
+\hline
+
+\multirow{6}*{briman2samoyed drit 5}&00299&257.770 \\
+\cline{2-3}
+~&00399&253.140 \\
+\cline{2-3}
+~&00499&250.514 \\
+\cline{2-3}
+~&00599&288.652 \\
+\cline{2-3}
+~&00699&250.060 \\
+\cline{2-3}
+~&00799&259.859 \\
+\hline
+
+
+
+
 \multirow{6}*{briman2samoyed drit 10}&00289&271.123 \\
 
 \cline{2-3}
@@ -79,6 +146,9 @@ datasets&epoch&FID \\
 \cline{2-3}
 ~&00789&251.234 \\
 \hline
+
+
+
 
 \multirow{6}*{cat2dog drit}&00289&249.053 \\
 
@@ -145,9 +215,7 @@ datasets&epoch&FID \\
 
 
 
-\end{tabular}
-
-\end{table}}
+\end{longtable}
 
 
 
