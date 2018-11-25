@@ -29,30 +29,10 @@ datasets&epoch&FID \\
 \endfoot
 
 
-\multirow{6}*{briman2husky drit}&00289&261.306 \\
-\cline{2-3}
-~&00389&266.377 \\
-\cline{2-3}
-~&00489&272.864 \\
-\cline{2-3}
-~&00589&283.004 \\
-\cline{2-3}
-~&00689&243.154 \\
-\cline{2-3}
-~&00789&249.725 \\
+\multirow{1}*{briman2husky drit}&00589&82.798 \\
 
-\hline
-\multirow{6}*{briman2husky drit 1}&00299&253.864 \\
-\cline{2-3}
-~&00399&253.170 \\
-\cline{2-3}
-~&00499&253.217 \\
-\cline{2-3}
-~&00599&251.120 \\
-\cline{2-3}
-~&00699&253.003 \\
-\cline{2-3}
-&00799&250.899 \\
+
+
 
 \hline
 \multirow{6}*{briman2husky drit 5}&00299&253.385 \\
@@ -84,6 +64,10 @@ datasets&epoch&FID \\
 \cline{2-3}
 ~&00789&299.257 \\
 \hline
+
+\multirow{1}*{briman2husky drit 50}&00299&306.583 \\
+
+
 
 \multirow{6}*{briman2samoyed drit}&00289&270.909 \\
 \cline{2-3}
@@ -147,7 +131,24 @@ datasets&epoch&FID \\
 ~&00789&251.234 \\
 \hline
 
+\multirow{6}*{briman2samoyed drit 50}&00299&285.162 \\
 
+\cline{2-3}
+~&00399&289.682 \\
+
+\cline{2-3}
+~&00499&239.814 \\
+
+\cline{2-3}
+~&00599&264.552 \\
+
+\cline{2-3}
+~&00699&271.459 \\
+
+\cline{2-3}
+~&00799&243.001 \\
+
+\hline
 
 
 \multirow{6}*{cat2dog drit}&00289&249.053 \\
@@ -219,15 +220,24 @@ datasets&epoch&FID \\
 
 
 
-\begin{table}
-\centering
+
+\begin{longtable}{|c|c|c|}
+
 \caption{MUNIT}
 
-\begin{tabular}{|c|c|c|}
+\\
+\hline
+datasets&epoch&FID \\
+\hline
+
+\endfirsthead
 
 \hline
-datasets&iteration&FID \\
+datasets&epoch&FID \\
 \hline
+\endhead
+\hline
+\endfoot
 
 \multirow{4}*{briman2husky drit 1}&00010000&262.470 \\
 
@@ -288,10 +298,10 @@ datasets&iteration&FID \\
 
 
 
-\end{tabular}
+\end{longtable}
 
 
-\end{table}
+
 
 
 \end{document}
