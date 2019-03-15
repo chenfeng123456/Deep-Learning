@@ -1,6 +1,9 @@
 set nocompatible              " required
 filetype off                  " required
 
+syntax enable
+set ignorecase
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -18,8 +21,18 @@ Plugin 'nvie/vim-flake8'
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
 
+Plugin 'git://github.com/edkolev/tmuxline.vim.git'
+
 
 Plugin 'tell-k/vim-autopep8'
+
+
+Plugin 'git://github.com/tomasr/molokai.git'
+"molokai 主题 monokai的进化版
+set t_Co=256
+colorscheme molokai
+let g:molokai_original = 1
+let g:rehash256 = 1
 
 
 Plugin 'scrooloose/nerdtree'
@@ -46,7 +59,15 @@ Plugin 'kien/ctrlp.vim'
 
 Plugin 'jiangmiao/auto-pairs'
 
-
+Plugin 'octol/vim-cpp-enhanced-highlight'
+"cpp-enhanced-highlight
+"高亮类，成员函数，标准库和模板
+let g:cpp_class_scope_highlight = 1
+let g:cpp_member_variable_highlight = 1
+let g:cpp_concepts_highlight = 1
+let g:cpp_experimental_simple_template_highlight = 1
+"文件较大时使用下面的设置高亮模板速度较快，但会有一些小错误
+"let g:cpp_experimental_template_highlight = 1
 
 " Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
 
@@ -92,10 +113,10 @@ set showmatch    "显示匹配的括号
 set scrolloff=3        "距离顶部和底部3行"
 set encoding=utf-8  "编码
 set fenc=utf-8      "编码
-set mouse=v        "启用鼠标
+set mouse=n        "启用鼠标
 set hlsearch        "搜索高亮
 
-let python_highlight_all=1
+"let python_highlight_all=1
 syntax on    "语法高亮
 
 
@@ -114,7 +135,7 @@ map <F5> :call RunPython()<CR>
 func! RunPython()
     exec "W"
     if &filetype == 'python'
-        exec "!time python2.7 %"
+        exec "!time python3.5 %"
     endif
 endfunc
 
@@ -151,12 +172,12 @@ au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 "EOF
 
 
-if has('gui_running')
-  set background=dark
-  colorscheme solarized
-else
-  colorscheme zenburn
-endif
+"if has('gui_running')
+"  set background=dark
+"  colorscheme solarized
+"else
+"  colorscheme zenburn
+"endif
 
 map <C-n> :NERDTreeToggle<CR>
 
