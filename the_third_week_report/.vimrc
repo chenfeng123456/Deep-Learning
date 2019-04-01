@@ -24,6 +24,29 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'git://github.com/edkolev/tmuxline.vim.git'
 
 
+Plugin 'lervag/vimtex'
+let g:tex_flavor='latex'
+let g:vimtex_view_method='zathura'
+let g:vimtex_quickfix_mode=0
+set conceallevel=1
+let g:tex_conceal='abdmg'
+let g:vimtex_view_automatic = 1
+"let g:vimtex_view_use_temp_files = 1
+"silent edit main.tex
+autocmd Filetype tex setl updatetime=1
+let g:livepreview_previewer = 'open -a zathura'
+
+
+Plugin 'sirver/ultisnips'
+Plugin 'honza/vim-snippets'
+let g:UltiSnipsExpandTrigger = '<Tab>'
+let g:UltiSnipsListSnippets = '<C-Tab>'
+let g:UltiSnipsJumpForwardTrigger = '<Tab>'
+let g:UltiSnipsJumpBackwardTrigger = '<S-Tab>'
+let g:UltiSnipsSnippetDirectories=['UltiSnips']
+let g:UltiSnipsSnippetsDir = '~/.vim/bundle/ultisnips/UltiSnips/'
+
+
 Plugin 'tell-k/vim-autopep8'
 
 
